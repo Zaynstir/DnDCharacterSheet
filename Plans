@@ -11,3 +11,57 @@ Languages
   -Mysql
   -php
 
+Our Idea
+	Our plan is to create an automatic filling character sheet that will semi-automate the process of creating characters, and we plan on using the Java framework Spring MVC to integrate this sheet into an online website application.
+
+Our Plan
+	We plan on using several different classes in order to make the project function.
+We could have people use a code word and be able to save their characters
+
+Functionality:
+
+Player Options::
+-Player
+-DM
+DM ManagerDM::(Tenative)
+-Gives an ID Address
+-Allows DM to view character sheets submitted by players
+Player::
+-Starting Options::
+  -Beginner
+  -Intermediate
+  -Expert
+  -Random
+Beginner::
+-Walkthrough of how to fill in sheet and will auto fill sheets
+Intermediate
+-Views the whole sheet and inputting values updates other values
+Expert::
+-Has the ability to create their own backgrounds/classes/and other things.
+-Auto fills page
+Random::
+-Randomly fills in a character sheet
+
+Server::(Tenative)
+-Give ID’s to DMs
+-Give ID’s to character sheets as soon as sheets are given to DM
+-Allows users to download and/or print sheets
+-Allows edits to be made at any time
+-Page needs a save button
+
+Character sheet manager
+-Fill in info manually / Necessary Calculations
+-DM can view sheets / update values/exp
+-GUI
+-Way to play out game (dice rolling, etc)
+
+Classes:
+-Dice Rolls
+-CACS
+-Class
+-Race
+-Archtype
+-Item
+-Spells
+-Background
+-Feats
