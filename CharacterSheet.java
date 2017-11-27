@@ -5,7 +5,7 @@ public class CharacterSheet {
 	private String name;
 	private Race race;
 	private Background background;
-	private Classes[] classes;
+	private Class[] classes;
 	private Spell[] spells;
 	private Feat[] feats;
 	private ArrayList<Item> items;
@@ -45,11 +45,11 @@ public class CharacterSheet {
 		background = b;
 	}
 	
-	public Classes[] getClasses() {
+	public Class[] getClass() {
 		return classes;
 	}
 	
-	public void setClasses(Classes[] c) {
+	public void setClass(Class[] c) {
 		classes = c;
 	}
 	
