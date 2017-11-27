@@ -7,8 +7,9 @@ public class Class {
 	final private int wisMod;
 	final private int chaMod;
 	final private Feat[] feats;
+	final private int lvl;
 	
-	public Class(int s, int d, int c, int i, int w, int ch, int f) {
+	public Class(int s, int d, int c, int i, int w, int ch, Feat f, int l) {
 		strMod = s;
 		dexMod = d;
 		conMod = c;
@@ -16,6 +17,7 @@ public class Class {
 		wisMod = w;
 		chaMod = ch;
 		feats[] = f;
+		lvl = l;
 	}
 	
 	public int getStrMod() {
@@ -48,5 +50,9 @@ public class Class {
 	
 	public Feat getFeat(int index) {
 		return feats[index];
+	}
+	
+	public void setLevel(int l){
+		lvl = l;
 	}
 }
