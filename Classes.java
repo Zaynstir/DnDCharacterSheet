@@ -1,5 +1,5 @@
 
-public class Classes {
+public class Class {
 	final private int strMod;
 	final private int dexMod;
 	final private int conMod;
@@ -8,7 +8,7 @@ public class Classes {
 	final private int chaMod;
 	final private Feat[] feats;
 	
-	public Classes(int s, int d, int c, int i, int w, int ch, int f) {
+	public Class(int s, int d, int c, int i, int w, int ch, int f) {
 		strMod = s;
 		dexMod = d;
 		conMod = c;
