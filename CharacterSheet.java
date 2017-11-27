@@ -45,11 +45,11 @@ public class CharacterSheet {
 		background = b;
 	}
 	
-	public Class[] getClass() {
+	public Class[] getClasses() {
 		return classes;
 	}
 	
-	public void setClass(Class[] c) {
+	public void setClasses(Class[] c) {
 		classes = c;
 	}
 	
