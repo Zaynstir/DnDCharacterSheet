@@ -7,16 +7,16 @@ public class Class {
 	final private int wisMod;
 	final private int chaMod;
 	final private Feat[] feats;
-	final private int lvl;
+	private int lvl;
 	
-	public Class(int s, int d, int c, int i, int w, int ch, Feat f, int l) {
+	public Class(int s, int d, int c, int i, int w, int ch, Feat[] f, int l) {
 		strMod = s;
 		dexMod = d;
 		conMod = c;
 		intMod = i;
 		wisMod = w;
 		chaMod = ch;
-		feats[] = f;
+		feats = f;
 		lvl = l;
 	}
 	
