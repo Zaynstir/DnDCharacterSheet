@@ -1,5 +1,7 @@
 
-##### main source code can be found at spring-app/src/main/sacs/
+#### main source code can be found at spring-app/src/main/java/sacs/
+####   Controllers/ contains page controllers
+####   Model/ contains all java files to define a character sheet object
 
 ### TO BUILD and RUN: 
 #### run `gradle build`
