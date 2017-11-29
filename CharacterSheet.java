@@ -70,7 +70,7 @@ public class CharacterSheet {
 	}
 	
 	public void addItem(Item i) {
-		items.add(i);
+		item.add(i);
 	}
 	
 	public void removeItem(Item i) {
