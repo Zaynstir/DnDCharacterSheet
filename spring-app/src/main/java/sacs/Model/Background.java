@@ -8,14 +8,14 @@ public class Background {
 	final private int chaMod;
 	final private Feat[] feats;
 	
-	public Background(int s, int d, int c, int i, int w, int ch, int f) {
+	public Background(int s, int d, int c, int i, int w, int ch, Feat[] f) {
 		strMod = s;
 		dexMod = d;
 		conMod = c;
 		intMod = i;
 		wisMod = w;
 		chaMod = ch;
-		feats[] = f;
+		feats = f;
 	}
 	
 	public int getStrMod() {
