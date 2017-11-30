@@ -1,21 +1,21 @@
 Acolyte
 Insight,Religion
 
-A Holy Symbol,A Prayer Book or Prayer Wheel,5 Sticks of Incense,Vestments,A Set of Common Clothes,Belt Pouch,15 GP
+A Holy Symbol,A Prayer Book or Prayer Wheel,5 Sticks of Incense,Vestments,Common Clothes,Belt Pouch,15 GP
 Shelter of the Faithful
 2 more of your choice.
 
 Charlatan
 Deception,Slight of Hand
 Disguise Kit,Forgery Kit
-Set of Fine Clothes,Disguise Kit,Choose One Tool of Con(Ten Stoppered Bottles filled with Colored Liquid:A Set of Weighted Dice:A Deck of Marked Cards:A Signet Ring of an Imaginary Duke),Belt Pouch,15 GP
+Fine Clothes,Disguise Kit,Choose One Tool of Con(Ten Stoppered Bottles filled with Colored Liquid:A Set of Weighted Dice:A Deck of Marked Cards:A Signet Ring of an Imaginary Duke),Belt Pouch,15 GP
 False Identity
 
 
 Criminal
 Deception,Stealth
 One Type of Gaming Set,Thieves' Tools
-Crowbar,Set of Dark Common Clothes w/ Hood,Belt Pouch,15 GP
+Crowbar,Dark Common Clothes with Hood,Belt Pouch,15 GP
 Criminal Contact
 
 
@@ -29,28 +29,28 @@ By Popular Demand
 Folk Hero
 Animal Handeling,Survival
 One Type of Artisan's Tools,Vehicles(land)
-A Set of Artisan's Tools,A Shovel,An Iron Pot,Set of Common Clothes,Belt Pouch,10 Gp
+A Set of Artisan's Tools,A Shovel,Iron Pot,Common Clothes,Belt Pouch,10 Gp
 Rustic Hospitality
 
 
 Guild Artisan
 Insight,Persuasion
 One Type of Artisan's Tools
-Set of Artisan Tools,Letter of Introduction from Your Guild,Set of Traveler's Clothes,Belt Pouch,15 GP
+Set of Artisan Tools,Letter of Introduction from Your Guild,Traveler's Clothes,Belt Pouch,15 GP
 Guild Membership
 One of Your Choice
 
 Hermit
 Medicine,Religion
 Herbalism Kit
-A Scroll Case stuffed full of notes from prayers or studies,Winter Blanket,Set of Common Clothes,Herbalism Kit,5 GP
+A Scroll Case stuffed full of notes from prayers or studies,Winter Blanket,Common Clothes,Herbalism Kit,5 GP
 Discovery
 One of Your Choice
 
 Noble
 History,Persuasion
 One Type of Gaming Set
-Set of Fine Clothes,Signet Ring,Scroll of Pedigree,Purse,25 GP
+Fine Clothes,Signet Ring,Scroll of Pedigree,Purse,25 GP
 Position of Privilege
 One of Your Choice
 
@@ -71,7 +71,7 @@ Two of Your Choice
 Sailor
 Athletics,Perception
 Navigator's Tools,Vehicles(Water)
-Belaying Pin,50 Ft. of Silk Rope,Lucky Charm,Set of Common Clothes,10 GP
+Belaying Pin,Silk Rope (50 Ft.),Lucky Charm,Set of Common Clothes,10 GP
 Ship's Passage
 
 
@@ -85,7 +85,7 @@ Military Rank
 Urchin
 Sleight of Hand,Stealth
 Disguise Kit,Thieves' Tools
-Small Knife,Map of the City You Grew Up In,Pet Mouse,Token to Remember Your Parents By,Set of Common Clothes,Belt Pouch,10 GP
+Small Knife,Map of the City You Grew Up In,Pet Mouse,Token to Remember Your Parents By,Common Clothes,Belt Pouch,10 GP
 City Secrets
 
 
