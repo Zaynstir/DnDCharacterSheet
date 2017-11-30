@@ -35,7 +35,7 @@ public class Weapon extends Item{
 	 * getDamage
 	 * @return damage: how much damage this weapon can do
 	 */
-	public int getDamage() {
+	public String getDamage() {
 		return damage;
 	}
 }

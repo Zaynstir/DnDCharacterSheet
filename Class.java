@@ -14,7 +14,7 @@ public class Class{
 	final private int chaMod;
 	final private String[] prof;
 	final private String[] SV;
-	private ArrayList<String> equipment = new ArrayList<String>();
+	final private Feat[] feats;
 	final private ArrayList<Item> equipment;
 	final private String skillProf;
 	private int lvl;
@@ -30,11 +30,11 @@ public class Class{
 	 * @param ch: charisma modifier
 	 * @param f: array of Feat objects
 	 * @param l: character class level
-   * @param p: proficiencies
+	 * @param p: proficiencies
 	 * @param e: equipment
 	 * @param sp: skill proficiencies
 	 */
-	public Class(String n, int s, int d, int c, int i, int w, int ch, int l, String[] p, String[] sv, ArrayList<String> e, String sp) {
+	public Class(String n, int s, int d, int c, int i, int w, int ch, Feat[] f, int l, String[] p, String[] sv, ArrayList<Item> e, String sp) {
 		name = n;
 		strMod = s;
 		dexMod = d;
@@ -42,14 +42,12 @@ public class Class{
 		intMod = i;
 		wisMod = w;
 		chaMod = ch;
+		feats = f;
 		prof = p;
 		SV = sv;
 		equipment = e;
 		skillProf = sp;
 		lvl = l;
-    prof = p;
-    equipment = e;
-    skillProf = sp;
 	}
 	
   /**

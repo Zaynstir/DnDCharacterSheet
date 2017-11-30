@@ -51,7 +51,7 @@ public class Feat {
 	 * getReq
 	 * @return the origin of the feature (class, race, background, etc...)
 	 */
-	public String getReq() {
+	public String[] getReq() {
 		return req;
 	}
 }

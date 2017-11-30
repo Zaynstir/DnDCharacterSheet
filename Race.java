@@ -117,7 +117,7 @@ public class Race {
 		 return speed;
 	 }
 	 
-	 public Race getSubRace() {
+	 public Race[] getSubRace() {
 		 return subRace;
 	 }
 	 public String[] getLanguage() {
