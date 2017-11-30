@@ -18,7 +18,21 @@ public class CharacterSheet {
 	private int wis;
 	private int cha;
 	
-	public CharacterSheet() {
+	public CharacterSheet(String n, Race r, Class[] c, Spell[] s, Feat[] f, ArrayList<Item> i, int exp, int l, int str, int dex, int con, int inte, int wis, int cha) {
+		name = n;
+		race = r;
+		classes = c;
+		spells = s;
+		feats = f;
+		items = i;
+		this.exp = exp;
+		lvl = l;
+		this.str = str;
+		this.dex = dex;
+		this.con = con;
+		intelligence = inte;
+		this.wis = wis;
+		this.cha = cha;
 	}
 	
 	public String getName() {
