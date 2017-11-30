@@ -1,23 +1,25 @@
 
 public class Weapon extends Item{
-	private static char[] possibleTypes;
 	final private int damage;
+	final private boolean simple;
+	final private boolean melee;
 	
-	public Weapon(String n, char[] p, int d) {
-		super(n);
-		possibleTypes = p;
+	public Weapon(String n, char[] p, int d, boolean s, boolean m) {
+		super(n, "");
 		damage = d;
-	}
-	
-	public char[] getPossibleTypes() {
-		return possibleTypes;
-	}
-	
-	public char getPossibleTypes(int index) {
-		return possibleTypes[index];
+		simple = s;
+		melee = m;
 	}
 	
 	public int getDamage() {
 		return damage;
+	}
+
+	public boolean isSimple() {
+		return simple;
+	}
+
+	public boolean isMelee() {
+		return melee;
 	}
 }
