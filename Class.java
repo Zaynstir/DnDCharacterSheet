@@ -15,7 +15,7 @@ public class Class{
 	final private String[] prof;
 	final private String[] SV;
 	final private Feat[] feats;
-	final private ArrayList<Item> equipment;
+	final private ArrayList<String> equipment;
 	final private String skillProf;
 	private int lvl;
 
@@ -34,7 +34,7 @@ public class Class{
 	 * @param e: equipment
 	 * @param sp: skill proficiencies
 	 */
-	public Class(String n, int s, int d, int c, int i, int w, int ch, Feat[] f, int l, String[] p, String[] sv, ArrayList<Item> e, String sp) {
+	public Class(String n, int s, int d, int c, int i, int w, int ch, Feat[] f, int l, String[] p, String[] sv, ArrayList<String> e, String sp) {
 		name = n;
 		strMod = s;
 		dexMod = d;

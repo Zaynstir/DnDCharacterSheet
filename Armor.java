@@ -17,7 +17,7 @@ public class Armor extends Item{
 	 * @param ac: the "armor class" of this item, basically hitpoints gained from it
 	 * @param max: the max dexterity needed for this armor item
 	 */
-	public Armor(String n, String desc, char[] p, char t, int ac, int m) {
+	public Armor(String n, String desc, char t, int ac, int m) {
 
 		super(n, desc);
 		type = t;
