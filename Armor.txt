@@ -7,21 +7,20 @@ Description
 Padded
 L
 11
--1
+99999
 Padded arm or consists of quilted layers of cloth and batting.
 
 Leather
 L
 11
--1
+99999
 The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.
 
 Studded Leather
 L
 12
--1
+99999
 Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.
-
 
 Hide
 M
@@ -53,7 +52,6 @@ M
 2
 Half plate consists of shaped metal plates that cover most of the wearer’s body. It does not include leg protection beyond simple greaves that are attached with leather straps.
 
-
 Ring Mail
 H
 14
@@ -72,7 +70,6 @@ H
 0
 This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.
 
-
 Plate
 H
 18
@@ -82,4 +79,6 @@ Plate consists of shaped, interlocking metal plates to cover the entire body. A 
 Shield
 S
 2
-NoMax
+99999
+
+

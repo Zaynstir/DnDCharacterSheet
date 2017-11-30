@@ -403,3 +403,9 @@ Vehicles(land)
 Vehicles(Water)
 
 
+Dark Common Clothes with Hood
+
+
+Belt Pouch
+
+
