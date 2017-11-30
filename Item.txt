@@ -1,10 +1,403 @@
 Name
 Description
 
+Abacus
+
+
 Acid
-As an action, you can splash the contents of
-this vial onto a creature within 5 feet of you or throw
-the vial up to 20 feet, shattering it on impact. In either
-case, make a ranged attack against a creature or object,
-treating the acid as an im provised weapon. On a hit, the
-target takes 2d6 acid damage
+As an action, you can splash the contents ofcthis vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an im provised weapon. On a hit, the target takes 2d6 acid damage.
+
+Alchemist's Fire
+
+
+Arrows
+
+
+Blowgun Needles
+
+
+Crossbow Bolts
+
+
+Sling Bullets
+
+
+Antitoxin
+
+
+Crystal
+
+
+Orb
+
+
+Rod
+
+
+Staff
+
+
+Wand
+
+
+Backpack
+
+
+Ball Bearings
+
+
+Barrel
+
+
+Basket
+
+
+Bedroll
+
+
+Bell
+
+
+Blanket
+
+
+Block and Tackle
+
+
+Book
+
+
+Bottle, Glass
+
+
+Bucket
+
+
+Caltrops(20)
+
+
+Candle
+
+
+Crossbow Bolt Case
+
+
+Map or Scroll Case
+
+
+Chain(10 Ft.)
+
+
+Chalk(1 Piece)
+
+
+Chest
+
+
+Climber's Kit
+
+
+Common Clothes
+
+
+Costume Clothes
+
+
+Fine Clothes
+
+
+Traveler's Clothes
+
+
+Component Pouch
+
+
+Crowbar
+
+
+Sprig of Mistletoe
+
+
+Totem
+
+
+Wooden Staff
+
+
+Yew Wand
+
+
+Fishing Tackle
+
+
+Flask or Tankard
+
+
+Grappling Hook
+
+
+Hammer
+
+
+Sledge Hammer
+
+
+Healer's Kit
+
+
+Amulet
+
+
+Emblem
+
+
+Reliquary
+
+
+Holy Water (Flask)
+
+
+Hourglass
+
+
+Hunting Trap
+
+
+Ink (1 Ounce Bottle)
+
+
+Ink Pen
+
+
+Jug or Pitcher
+
+
+Ladder (10 Ft.)
+
+
+Lamp
+
+
+Bullseye Lantern
+
+
+Hooded Lantern
+
+
+Lock
+
+
+Magnifying Glass
+
+
+Manacles
+
+
+Mess Kit
+
+
+Steel Mirror
+
+
+Oil (Flask)
+
+
+Paper (One Sheet)
+
+
+Parchment (One Sheet)
+
+
+Perfume (Vial)
+
+
+Pole (10 Ft.)
+
+
+Iron Pot
+
+
+Potion of Healing
+
+
+Pouch
+
+
+Quiver
+
+
+Portable Ram
+
+
+Rations (1 Day)
+
+
+Robes
+
+
+Hempen Rope (50 Ft.)
+
+
+Silk Rope (50 Ft.)
+
+
+Sack
+
+
+Merchant's Scale
+
+
+Sealing Wax
+
+
+Shovel
+
+
+Signal Wistle
+
+
+Signet Ring
+
+
+Soap
+
+
+Spellbook
+
+
+Iron Spikes (10)
+
+
+Spyglass
+
+
+Two-Person Tent
+
+
+Tinderbox
+
+
+Torch
+
+
+Vial
+
+
+Waterskin
+
+
+Whetstone
+
+
+Alchemist's Supplies
+
+
+Brewer's Supplies
+
+
+Calligrapher's Supplies
+
+
+Carpenter's Tools
+
+
+Cobbler's Tools
+
+
+Cook's Utensils
+
+
+Glassblower's Tools
+
+
+Jeweler's Tools
+
+
+Leatherworker's Tools
+
+
+Mason's Tools
+
+
+Painter's Supplies
+
+
+Potter's Tools
+
+
+Smith's Tools
+
+
+Tinker's Tools
+
+
+Weaver's Tools
+
+
+Woodcarver's Tools
+
+
+Disguise Kit
+
+
+Forgery Kit
+
+
+Dice Set
+
+
+Dragonchess Set
+
+
+Playing Card Set
+
+
+Three-Dragon Ante Set
+
+
+Herbalism Kit
+
+
+Bagpipes
+
+
+Drum
+
+
+Dulcimer
+
+
+Flute
+
+
+Lute
+
+
+Lyre
+
+
+Horn
+
+
+Pan Flute
+
+
+Shawrn
+
+
+Viol
+
+
+Navigator's Tools
+
+
+Poisoner's Kit
+
+
+Thieves' Tools
+
+
+Vehicles(land)
+
+
+Vehicles(Water)

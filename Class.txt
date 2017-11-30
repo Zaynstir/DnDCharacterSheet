@@ -5,9 +5,7 @@ Barbarian
 0
 0
 0
-Light Armor,Medium Armor,Shields
-Simple Weapons,Martial Weapons
-
+Light Armor,Medium Armor,Shields,Simple Weapons,Martial Weapons
 Strength,Constitution
 2:Animal Handling,Athletics,Intimidation,Nature,Perception,Survival
 -Greataxe:Any Martial Melee Weapon
@@ -15,7 +13,7 @@ Strength,Constitution
 -Explorer's Pack
 -4 Javelins
 Main,Path of the Berserker,Path of the Totem Warrior
-
+ 
 Bard
 0
 0
@@ -23,13 +21,13 @@ Bard
 0
 0
 0
-Light Armor
-Simple Weapons,Hand Crossbows,Longswords,Rapiers,Shortswords
-3 Musical Instruments
+Light Armor,Simple Weapons,Hand Crossbows,Longswords,Rapiers,Shortswords
 Dexterity,Charisma
 3|
+-3 Musical Instruments
 -Rapier:Longsword:Any Simple Weapon
 -Diplomat's Pack:Entertainer's Pack
 -Lute:Other Musical Instruments
 -Leather Armor,Dagger
-Main,College of Lore,College of Valor,
+Main,College of Lore,College of Valor
+ 

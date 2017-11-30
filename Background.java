@@ -5,13 +5,15 @@ public class Background {
 	final private String[] toolProf;
 	final private Item[] equipment;
 	final private Feat[] features;
+	final private String languages;
 	
-	public Background(String n, String[] sp, String[] tp, Item[] e, Feat[] f){
+	public Background(String n, String[] sp, String[] tp, Item[] e, Feat[] f, String l){
 		name = n;
 		skillProf = sp;
 		toolProf = tp;
 		equipment = e;
 		features = f;
+		languages = l;
 	}
 	
 	public String getName() {

@@ -6,10 +6,10 @@ Dwarf,Hill Dwarf
 1
 0
 0
-
+Dwarvish
 Dwarven Toughness
-
-
+ 
+ 
 Dwarf,Mountain Dwarf
 2
 0
@@ -18,9 +18,9 @@ Dwarf,Mountain Dwarf
 0
 0
 0
-
+Dwarvish
 Dwarven Armor Training
-
+ 
 
 Dwarf
 0
@@ -30,10 +30,10 @@ Dwarf
 0
 0
 25
-Dwarvish,Common
+Dwarvish, Common
 Darkvision,Dwarven Resilience,Dwarven Combat Training,Tool Proficiency,Stonecunning
 Hill Dwarf,Mountain Dwarf
-
+ 
 Elf,High Elf
 0
 0
@@ -42,10 +42,10 @@ Elf,High Elf
 0
 0
 0
-
+Elvish
 Elf Weapon Training,Cantrip,Languages
-
-
+ 
+ 
 Elf,Wood Elf
 0
 0
@@ -54,11 +54,11 @@ Elf,Wood Elf
 1
 0
 5
-
+Elvish
 Elf Weapon Training,Mask of the Wild
-
-
-Elf,Dark Elf (Drow)
+ 
+ 
+Elf, Dark Elf (Drow)
 0
 0
 0
@@ -66,10 +66,10 @@ Elf,Dark Elf (Drow)
 0
 1
 0
-
+Elvish
 Superior Darkvision,Sunligh Sensitivity,Drow Magic,Drow Weapon Training
-
-
+ 
+ 
 Elf
 0
 2
@@ -78,54 +78,7 @@ Elf
 0
 0
 30
-Elvish,Common
+Elvish
 Darkvision,Keen Senses,Fey Ancestry,Trance,Languages
 High Elf,Wood Elf,Dark Elf (Drow)
-
-Halfling,Lightfoot
-0
-0
-0
-0
-0
-1
-0
-
-Naturally Stealthy
-
-
-Halfling,Stout
-0
-0
-1
-0
-0
-0
-0
-
-Stout Resilience
-
-
-Halfling
-0
-2
-0
-0
-0
-0
-25
-Halfling,Common
-Lucky,Brave,Halfling Nimbleness
-Lightfoot,Stout
-
-Human
-1
-1
-1
-1
-1
-1
-30
-Common
-Languages
-
+ 

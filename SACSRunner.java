@@ -107,11 +107,13 @@ public class SACSRunner {
 			for(int i = 0; i < temp.length; i++) {
 				item[i] = findItem(temp[i]);
 			}
-			String[] f = raceFile.nextLine().split(",");
+			String[] f = backgroundFile.nextLine().split(",");
 			Feat[] feat = new Feat[f.length];
 			for(int i = 0; i < f.length; i++) {
 				feat[i] = findFeat(f[i]);
 			}
+			String languages = backgroundFile.nextLine();
+			backgroundRay.add(new Background(name, sp, tp, item, feat, languages));
 		}
 		for(Feat f : featRay) {
 			System.out.println("FEAT:: "+f.getName());
