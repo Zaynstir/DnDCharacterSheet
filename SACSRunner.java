@@ -20,12 +20,22 @@ public class SACSRunner {
 		Scanner weaponFile = new Scanner(new FileReader("Weapon.txt"));
 		Scanner armorFile = new Scanner(new FileReader("Armor.txt"));
 		
+		itemFile.nextLine();
+		itemFile.nextLine();
+		itemFile.nextLine();
 		while(itemFile.hasNextLine()) {
 			String name = itemFile.nextLine();
-			String desc = itemFile.nextLine();
+			String desc = "";
 			itemFile.nextLine();
+			itemFile.nextLine();
+			//itemFile.nextLine();
 			itemRay.add(new Item(name, desc));
 		}
+		
+		weaponFile.nextLine();
+		weaponFile.nextLine();
+		weaponFile.nextLine();
+		weaponFile.nextLine();
 		while(weaponFile.hasNextLine()) {
 			String name = weaponFile.nextLine();
 			String[] wt = weaponFile.nextLine().split(",");
@@ -35,7 +45,14 @@ public class SACSRunner {
 			weaponFile.nextLine();
 			itemRay.add(new Weapon(name, at, wt, dmg));
 		}
-		while(weaponFile.hasNextLine()) {
+		
+		armorFile.nextLine();
+		armorFile.nextLine();
+		armorFile.nextLine();
+		armorFile.nextLine();
+		armorFile.nextLine();
+		armorFile.nextLine();
+		while(armorFile.hasNextLine()) {
 			String name = armorFile.nextLine();
 			char t = armorFile.nextLine().charAt(0);
 			int AC = Integer.parseInt(armorFile.nextLine());
@@ -113,6 +130,7 @@ public class SACSRunner {
 				feat[i] = findFeat(f[i]);
 			}
 			String languages = backgroundFile.nextLine();
+			backgroundFile.nextLine();
 			backgroundRay.add(new Background(name, sp, tp, item, feat, languages));
 		}
 		for(Feat f : featRay) {
@@ -123,6 +141,12 @@ public class SACSRunner {
 		}
 		for(Class f : classRay) {
 			System.out.println("CLASS:: "+f.getName());
+		}
+		for(Background f : backgroundRay) {
+			System.out.println("Background:: "+f.getName());
+		}
+		for(Item f : itemRay) {
+			System.out.println("ITEM:: "+f.getName());
 		}
 	}
 	

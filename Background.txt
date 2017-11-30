@@ -87,3 +87,5 @@ Sleight of Hand,Stealth
 Disguise Kit,Thieves' Tools
 Small Knife,Map of the City You Grew Up In,Pet Mouse,Token to Remember Your Parents By,Set of Common Clothes,Belt Pouch,10 GP
 City Secrets
+
+
