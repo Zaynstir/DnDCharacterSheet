@@ -10,7 +10,7 @@ public class SACSRunner {
 	static ArrayList<Item> itemRay = new ArrayList<Item>();
 	static ArrayList<Background> backgroundRay = new ArrayList<Background>();
 	static CharacterSheet cs;
-	static Dice dice = new Dice();
+	static Dice d = new Dice();
 	
 	private String name;
 	private Race race;
