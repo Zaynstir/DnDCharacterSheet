@@ -1,14 +1,3 @@
-Dwarf
-0
-0
-2
-0
-0
-0
-25
-Dwarvish, Common
-Darkvision,Dwarven Resilience,Dwarven Combat Training,Tool Proficiency,Stonecunning
-
 Dwarf,Hill Dwarf
 0
 0
@@ -19,6 +8,7 @@ Dwarf,Hill Dwarf
 0
 Dwarvish
 Dwarven Toughness
+
 
 Dwarf,Mountain Dwarf
 2
@@ -31,16 +21,18 @@ Dwarf,Mountain Dwarf
 Dwarvish
 Dwarven Armor Training
 
-Elf
+
+Dwarf
+0
 0
 2
 0
 0
 0
-0
-30
-Elvish
-Darkvision,Keen Senses,Fey Ancestry,Trance,Languages
+25
+Dwarvish, Common
+Darkvision,Dwarven Resilience,Dwarven Combat Training,Tool Proficiency,Stonecunning
+Hill Dwarf,Mountain Dwarf
 
 Elf,High Elf
 0
@@ -53,6 +45,7 @@ Elf,High Elf
 Elvish
 Elf Weapon Training,Cantrip,Languages
 
+
 Elf,Wood Elf
 0
 0
@@ -64,6 +57,7 @@ Elf,Wood Elf
 Elvish
 Elf Weapon Training,Mask of the Wild
 
+
 Elf, Dark Elf (Drow)
 0
 0
@@ -74,3 +68,16 @@ Elf, Dark Elf (Drow)
 0
 Elvish
 Superior Darkvision,Sunligh Sensitivity,Drow Magic,Drow Weapon Training
+
+
+Elf
+0
+2
+0
+0
+0
+0
+30
+Elvish
+Darkvision,Keen Senses,Fey Ancestry,Trance,Languages
+High Elf,Wood Elf,Dark Elf (Drow)
