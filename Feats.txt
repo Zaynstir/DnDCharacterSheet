@@ -1,0 +1,86 @@
+Darkvision
+
+See out 60 feet in dim lighting.
+Dwarf,Elf
+
+Dwarven Resilience
+
+Advantage on Saving Throws against poison.,Resistance against poison damage.
+Dwarf
+
+Dwarven Combat Training
+
+Proficiency with Battleaxe\ Handaxe\ Throwing Hammer\ and Warhammer.
+Dwarf
+
+Tool Proficiency
+Proficiency with artisan's of your choice: Smith's Tools\ Brewer's Supplies\ or Mason's Tools.
+Dwarf
+
+Stonecunning
+
+Double Proficient with history when relating to the origin of stonework.
+Dwarf
+
+Languages
+
+You can speak\ read\ and write an extra language.
+
+Dwarven Toughness
+
+Hit point maximum increases by one\ and it increases every time you gain a level.
+Hill Dwarf
+
+Dwarven Armor Training
+
+Proficient in Light and Medium Armor
+Mountain Dwarf
+
+Keen Senses
+
+Proficiency in Perception
+Elf
+
+Fey Ancestry
+
+Advantage on Saving Throws against being charmed. Magic cannot put you to sleep.
+Elf
+
+Trance
+
+4 hours of deep semi-conscious meditation which is equivalent to 8 hours of sleep.
+Elf
+
+Elf Weapon Training
+
+Proficient in Longsword\ Shortsword\ Shortbow\ and Longbow.
+High Elf
+
+Cantrip
+
+One cantrip from the wizard spell list. Intelligence is your spellcasting ability.
+High Elf
+
+Mask of the Wild
+
+Can attempt to hide even when only lightly obscured by foliage\ heavy rain\ falling snow\ mist\ and other natural phenomena.
+Wood Elf
+
+Superior Darvision
+
+Darkvision but with an extra 60 feet.
+Dark Elf (Drow)
+
+Sunligh Sensitivity
+
+Disavantage on attack rolls and on Perception checks when in direct sunlight.
+Dark Elf (Drow)
+
+Drow Magic
+
+You know Dancing Lights cantrip., You can cast Faerie Fire at Level 3., You can cast Darkness at Level 5., Charisma is you spellcasting ability.
+Dark Elf (Drow)
+
+Drow Weapon Training
+
+Proficient in Rapiers, Shortswords, and Hand Crossbows
