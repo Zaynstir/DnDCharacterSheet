@@ -1,8 +1,17 @@
-
+/**
+ * Dice.java
+ * Used to simulate dicerolls
+ */
 public class Dice {
 	public Dice() {
-		
+
 	}
+
+	/**
+	 * roll
+	 * @param diceRoll: String of the number of sides the die should have
+	 * @return total: the value of the rolled dice
+	 */
 	public int roll(String diceRoll) {
 		String dice = diceRoll;
 		System.out.println(dice);
