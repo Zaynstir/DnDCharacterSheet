@@ -1,23 +1,37 @@
+import java.util.ArrayList;
 
-public class Class {
+public class Class{
+	final private String name;
 	final private int strMod;
 	final private int dexMod;
 	final private int conMod;
 	final private int intMod;
 	final private int wisMod;
 	final private int chaMod;
-	final private Feat[] feats;
+	final private String[] prof;
+	final private String[] SV;
+	private ArrayList<String> equipment = new ArrayList<String>();
+	//final private ArrayList<Item> equipment;
+	final private String skillProf;
 	private int lvl;
 	
-	public Class(int s, int d, int c, int i, int w, int ch, Feat[] f, int l) {
+	public Class(String n, int s, int d, int c, int i, int w, int ch, int l, String[] p, String[] sv, ArrayList<String> e, String sp) {
+		name = n;
 		strMod = s;
 		dexMod = d;
 		conMod = c;
 		intMod = i;
 		wisMod = w;
 		chaMod = ch;
-		feats = f;
+		prof = p;
+		SV = sv;
+		equipment = e;
+		skillProf = sp;
 		lvl = l;
+	}
+	
+	public String getName() {
+		return name;
 	}
 	
 	public int getStrMod() {
@@ -42,14 +56,6 @@ public class Class {
 	
 	public int getChaMod() {
 		return chaMod;
-	}
-	
-	public Feat[] getFeat() {
-		return feats;
-	}
-	
-	public Feat getFeat(int index) {
-		return feats[index];
 	}
 	
 	public void setLevel(int l){

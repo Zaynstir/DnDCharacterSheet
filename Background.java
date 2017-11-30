@@ -1,5 +1,28 @@
 
 public class Background {
+	final private String name;
+	final private String[] skillProf;
+	final private String[] toolProf;
+	final private Item[] equipment;
+	final private Feat[] features;
+	
+	public Background(String n, String[] sp, String[] tp, Item[] e, Feat[] f){
+		name = n;
+		skillProf = sp;
+		toolProf = tp;
+		equipment = e;
+		features = f;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	
+	
+}
+	
+	/*
 	final private int strMod;
 	final private int dexMod;
 	final private int conMod;
@@ -50,4 +73,4 @@ public class Background {
 		return feats[index];
 	}
 
-}
+}*/

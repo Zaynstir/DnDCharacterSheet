@@ -14,6 +14,7 @@ Proficiency with Battleaxe\ Handaxe\ Throwing Hammer\ and Warhammer.
 Dwarf
 
 Tool Proficiency
+
 Proficiency with artisan's of your choice: Smith's Tools\ Brewer's Supplies\ or Mason's Tools.
 Dwarf
 
@@ -25,6 +26,7 @@ Dwarf
 Languages
 
 You can speak\ read\ and write an extra language.
+
 
 Dwarven Toughness
 
@@ -84,3 +86,5 @@ Dark Elf (Drow)
 Drow Weapon Training
 
 Proficient in Rapiers, Shortswords, and Hand Crossbows
+Dark Elf (Drow)
+ 

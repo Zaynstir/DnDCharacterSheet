@@ -1,18 +1,18 @@
 
 public class Item {
 	final private String name;
-	final private String description;
+	final private String desc;
 	
-	public Item(String n, String desc) {
+	public Item(String n, String d) {
 		name = n;
-		description = desc;
+		desc = d;
 	}
 	
 	public String getName() {
 		return name;
 	}
 	
-	public String getDescription() {
-		return description;
+	public String getDesc() {
+		return desc;
 	}
 }
