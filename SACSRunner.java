@@ -10,7 +10,7 @@ public class SACSRunner {
 	static ArrayList<Item> itemRay = new ArrayList<Item>();
 	static ArrayList<Background> backgroundRay = new ArrayList<Background>();
 	static CharacterSheet cs;
-	static Dice d = new Dice();
+	static Dice dice = new Dice();
 	
 	private String name;
 	private Race race;
@@ -337,6 +337,6 @@ public class SACSRunner {
 	
 	public void setCS() {
 
-		cs = new CharacterSheet(name, race, classes, spells, feats, items, exp, lvl, str, dex, con, intelligence, wis, cha);
+		cs = new CharacterSheet(name, race, classes, spells, feats, items, exp, lvl, str, dex, con, intelligence, wis, cha, 10);
 	}
 }
