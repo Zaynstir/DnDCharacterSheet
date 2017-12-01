@@ -17,15 +17,11 @@ public class Class{
 	/**
 	 * Class() 8-arg constructor
    * @param n: name of the class
-	 * @param s: strength modifier
-	 * @param d: dexterity modifier
-	 * @param c: constituion modifier
-	 * @param i: intelligence modifier
-	 * @param w: wisdom modifier
-	 * @param ch: charisma modifier
+	 * @param h: starting health at level 1
 	 * @param f: array of Feat objects
 	 * @param l: character class level
 	 * @param p: proficiencies
+	 * @param sv: saving throws
 	 * @param e: equipment
 	 * @param sp: skill proficiencies
 	 */
@@ -48,6 +44,18 @@ public class Class{
 		return name;
 	}
 	
+	public int getHealth() {
+		return health;
+	}
+	
+	public String[] getProf() {
+		return prof;
+	}
+	
+	public String[] getSV() {
+		return SV;
+	}
+	
 	/**
 	 * getFeat
 	 * @return feats: array of Feat objects
@@ -64,6 +72,10 @@ public class Class{
 	public Feat getFeat(int index) {
 		return feats[index];
 	}
+	
+	public String getSkillProf() {
+		return skillProf;
+	}
 
 	/**
 	 * setLevel - this method sets the level variable
@@ -72,7 +84,5 @@ public class Class{
 		lvl = l;
 	}
 	
-	public int getHealth() {
-		return health;
-	}
+	
 }
