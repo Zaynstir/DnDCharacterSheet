@@ -22,6 +22,14 @@ V,S
 Instantaneous
 Bard
 
+Bane
+1
+1 Action
+30 feet
+V,S,M-a drop of blood
+Concentration, up to 1 minute
+Cleric
+
 Blade Ward
 0
 1 Action
@@ -29,6 +37,14 @@ Self
 V,S
 1 Round
 Bard
+
+Bless
+1
+1 Action
+30 feet
+V,S,M-a sprinkling of holy water
+Concentration, up to 1 minute
+Cleric
 
 Charm Person
 1
@@ -46,6 +62,14 @@ V,S
 1 Round
 Bard
 
+Command
+1
+1 Action
+60 feet
+V
+1 Round
+Cleric
+
 Comprehend Languages
 1
 1 Action
@@ -53,6 +77,46 @@ Self
 V,S,M-a pinch of soot and salt
 1 hour
 Bard
+
+Create or Destroy Water
+1
+1 Action
+30 feet
+V,S,M-a drop of water if creating water or or a few grains of sand if destroying it
+Instantaneous
+Cleric
+
+Cure Wounds
+1
+1 Action
+Touch
+V,S
+Instantaneous
+Cleric
+
+Detect Evil and Good
+1
+1 Action
+Self
+V,S
+Concentration, up to 10 minutes
+Cleric
+
+Detect Magic
+1
+1 Action
+Self
+V,S
+Concentration, up to 10 minutes
+Cleric
+
+Detect Poison and Disease
+1
+1 Action
+Self
+V,S,M-a yew leaf
+Concentration, up to 10 minutes
+Cleric
 
 Eldritch Blast
 0
@@ -67,7 +131,7 @@ Expeditious Retreat
 1 Bonus Action
 Self
 V,S
-Concentration,up to 10 minute
+Concentration, up to 10 minute
 Bard
 
 Friends
@@ -75,7 +139,7 @@ Friends
 1 Action
 Self
 S,M-a small amount of makeup applied to the face as this spell is cast
-Concentration,up to 1 minute
+Concentration, up to 1 minute
 Bard
 
 Guidance
@@ -83,7 +147,23 @@ Guidance
 1 Action
 Touch
 V,S
-Concentration,up to 1 minute
+Concentration, up to 1 minute
+Cleric
+
+Guiding Bolt
+1
+1 Action
+120 feet
+V,S
+1 Round
+Cleric
+
+Healing Word
+1
+1 Bonus Action
+60 feet
+V
+Instantaneous
 Cleric
 
 Hellish Rebuke
@@ -99,7 +179,7 @@ Hex
 1 Bonus Action
 90 feet
 V,S,M-the petrified eye of a newt
-Concentration,up to 1 hour
+Concentration, up to 1 hour
 Bard
 
 Illusory Script
@@ -109,6 +189,14 @@ Touch
 S,M-a lead-based ink worth at least 10 gp, which the spell consumes
 Instantaneous
 Bard
+
+Inflict Wounds
+1
+1 Action
+Touch
+V,S
+Instantaneous
+Cleric
 
 Light
 0
@@ -163,15 +251,23 @@ Protection from Evil and Good
 1 Action
 Touch
 V,S,M-holy water or powdered silver and iron, which the spell consumes
-Concentration,up to 10 minutes
-Bard
+Concentration, up to 10 minutes
+Bard,Cleric
+
+Purify Food and Drink
+1
+1 Action
+10 feet
+V,S
+Instantaneous
+Cleric
 
 Resistance
 0
 1 Action
 Touch
 V,S,M-a miniature cloak
-Concentration,up to 1 minute
+Concentration, up to 1 minute
 Cleric
 
 Sacred Flame
@@ -182,12 +278,44 @@ V,S
 Instantaneous
 Cleric
 
+Sanctuary
+1
+1 Bonus Action
+30 feet
+V,S,M-a small silver mirror
+1 Minute
+Cleric
+
+Shield of Faith
+1
+1 Bonus Action
+60 feet
+V,S,M-a small parchment with a bit of holy text written on it
+Concentration, up to 10 minutes
+Cleric
+
+Spare the Dying
+0
+1 Action
+Touch
+V,S
+Instantaneous
+Cleric
+
+Thaumaturgy
+0
+1 Action
+30 feet
+V
+Up to 1 minute
+Cleric
+
 True Strike
 0
 1 Action
 30 feet
 S
-Concentration,up to 1 round
+Concentration, up to 1 round
 Bard
 
 Unseen Servant
@@ -203,5 +331,5 @@ Witch Bolt
 1 Action
 30 feet
 V,S,M-a twig from a tree that has been struck by lightning
-Concentration,up to 1 minute
+Concentration, up to 1 minute
 
