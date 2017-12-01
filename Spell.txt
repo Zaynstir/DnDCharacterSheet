@@ -1,24 +1,72 @@
 Name
 Spell Level(Cantrip || 1st Level)
-Components(V = Verbal, S = Somatic, M = Material)
 Casting Time (String)
 Range
+Components(V = Verbal, S = Somatic, M = Material) (M-The material needed)
 Duration
-Concentration DC
-Saving Throw DC
 
-Level 0
 Blade Ward
-
+0
+1 Action
+Self
+V,S
+1 Round
 
 Chill Touch
+0
+1 Action
+120 feet
+V,S
+1 Round
+
 Eldritch Blast
+0
+1 Action
+120 feet
+V,S
+Instantaneous
+
 Friends
+0
+1 Action
+Self
+S,M-a small amount of makeup applied to the face as this spell is cast
+Concentration,up to 1 minute
+
 Mage Hand
+0
+1 Action
+30 feet
+V,S
+1 minute
+
 Minor Illusion
+0
+1 Action
+30 feet
+S,M-a bit of fleece
+1 minute
+
 Poison Spray
+0
+1 Action
+10 feet
+V,S
+Instantaneous
+
 Prestidigation
+0
+1 Action
+10 feet
+V,S
+Up to 1 hour
+
 True Strike
+0
+1 Action
+30 feet
+S
+Concentration,up to 1 round
 
 Level 1
 Armor of Agathys
