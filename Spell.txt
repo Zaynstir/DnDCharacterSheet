@@ -6,6 +6,14 @@ Components(V = Verbal, S = Somatic, M = Material) (M-The material needed)
 Duration
 Class
 
+Animal Friendship
+1
+1 Action
+30 feet
+V,S,M-a morsel of food
+24 hours
+Druid
+
 Armor of Agathys
 1
 1 Action
@@ -52,7 +60,7 @@ Charm Person
 30 feet
 V,S
 1 hour
-Bard
+Bard,Druid
 
 Chill Touch
 0
@@ -84,7 +92,7 @@ Create or Destroy Water
 30 feet
 V,S,M-a drop of water if creating water or or a few grains of sand if destroying it
 Instantaneous
-Cleric
+Cleric,Druid
 
 Cure Wounds
 1
@@ -92,7 +100,7 @@ Cure Wounds
 Touch
 V,S
 Instantaneous
-Cleric
+Cleric,Druid
 
 Detect Evil and Good
 1
@@ -108,7 +116,7 @@ Detect Magic
 Self
 V,S
 Concentration, up to 10 minutes
-Cleric
+Cleric,Druid
 
 Detect Poison and Disease
 1
@@ -116,7 +124,7 @@ Detect Poison and Disease
 Self
 V,S,M-a yew leaf
 Concentration, up to 10 minutes
-Cleric
+Cleric,Druid
 
 Druidcraft
 0
@@ -134,13 +142,37 @@ V,S
 Instantaneous
 Bard
 
+Entangle
+1
+1 Action
+90 feet
+V,S
+Concentration, up to 1 minute
+Druid
+
 Expeditious Retreat
 1
 1 Bonus Action
 Self
 V,S
-Concentration, up to 10 minute
+Concentration, up to 10 minutes
 Bard
+
+Faerie Fire
+1
+1 Action
+60 feet
+V
+Concentration, up to 1 minute
+Druid
+
+Fog Cloud
+1
+1 Action
+120 feet
+V,S
+Concentration, up to 1 hour
+Druid
 
 Friends
 0
@@ -149,6 +181,14 @@ Self
 S,M-a small amount of makeup applied to the face as this spell is cast
 Concentration, up to 1 minute
 Bard
+
+Goodberry
+1
+1 Action
+Touch
+V,S,M-a sprig of mistletoe
+Instantaneous
+Druid
 
 Guidance
 0
@@ -172,7 +212,7 @@ Healing Word
 60 feet
 V
 Instantaneous
-Cleric
+Cleric,Druid
 
 Hellish Rebuke
 1
@@ -206,6 +246,14 @@ V,S
 Instantaneous
 Cleric
 
+Jump
+1
+1 Action
+Touch
+V,S,M-a grasshopper's hind leg
+1 minute
+Druid
+
 Light
 0
 1 Action
@@ -213,6 +261,14 @@ Touch
 V,M-a firefly or phosphorescent moss
 1 hour
 Cleric
+
+Longstrider
+1
+1 Action
+Touch
+V,S,M-a pinch of dirt
+1 hour
+Druid
 
 Mage Hand
 0
@@ -276,7 +332,7 @@ Purify Food and Drink
 10 feet
 V,S
 Instantaneous
-Cleric
+Cleric,Druid
 
 Resistance
 0
@@ -326,6 +382,14 @@ V,S
 Instantaneous
 Cleric
 
+Speak with Animals
+1
+1 Action
+Self
+V,S
+Instantaneous
+Druid
+
 Thaumaturgy
 0
 1 Action
@@ -339,6 +403,14 @@ Thorn Whip
 1 Action
 30 feet
 V,S,M-the stem of a plant with thorns
+Instantaneous
+Druid
+
+Thunderwave
+1
+1 Action
+Self(15-foot cube)
+V,S
 Instantaneous
 Druid
 
