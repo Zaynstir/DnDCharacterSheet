@@ -4,6 +4,7 @@ Casting Time (String)
 Range
 Components(V = Verbal, S = Somatic, M = Material) (M-The material needed)
 Duration
+Class
 
 Blade Ward
 0
@@ -11,6 +12,7 @@ Blade Ward
 Self
 V,S
 1 Round
+Bard
 
 Chill Touch
 0
@@ -18,6 +20,7 @@ Chill Touch
 120 feet
 V,S
 1 Round
+Bard
 
 Eldritch Blast
 0
@@ -25,6 +28,7 @@ Eldritch Blast
 120 feet
 V,S
 Instantaneous
+Bard
 
 Friends
 0
@@ -32,6 +36,7 @@ Friends
 Self
 S,M-a small amount of makeup applied to the face as this spell is cast
 Concentration,up to 1 minute
+Bard
 
 Mage Hand
 0
@@ -39,6 +44,7 @@ Mage Hand
 30 feet
 V,S
 1 minute
+Bard
 
 Minor Illusion
 0
@@ -46,6 +52,7 @@ Minor Illusion
 30 feet
 S,M-a bit of fleece
 1 minute
+Bard
 
 Poison Spray
 0
@@ -53,6 +60,7 @@ Poison Spray
 10 feet
 V,S
 Instantaneous
+Bard
 
 Prestidigation
 0
@@ -60,6 +68,7 @@ Prestidigation
 10 feet
 V,S
 Up to 1 hour
+Bard
 
 True Strike
 0
@@ -67,6 +76,7 @@ True Strike
 30 feet
 S
 Concentration,up to 1 round
+Bard
 
 Armor of Agathys
 1
@@ -74,6 +84,7 @@ Armor of Agathys
 Self
 V,S,M-a cup of water
 1 hour
+Bard
 
 Arms of Hadar
 1
@@ -81,6 +92,7 @@ Arms of Hadar
 Self(10-foot radius)
 V,S
 Instantaneous
+Bard
 
 Charm Person
 1
@@ -88,6 +100,7 @@ Charm Person
 30 feet
 V,S
 1 hour
+Bard
 
 Comprehend Languages
 1
@@ -95,6 +108,7 @@ Comprehend Languages
 Self
 V,S,M-a pinch of soot and salt
 1 hour
+Bard
 
 Expeditious Retreat
 1
@@ -102,6 +116,7 @@ Expeditious Retreat
 Self
 V,S
 Concentration,up to 10 minute
+Bard
 
 Hellish Rebuke
 1
@@ -109,6 +124,7 @@ Hellish Rebuke
 60 feet
 V,S
 Instantaneous
+Bard
 
 Hex
 1
@@ -116,6 +132,7 @@ Hex
 90 feet
 V,S,M-the petrified eye of a newt
 Concentration,up to 1 hour
+Bard
 
 Illusory Script
 1
@@ -123,6 +140,7 @@ Illusory Script
 Touch
 S,M-a lead-based ink worth at least 10 gp, which the spell consumes
 Instantaneous
+Bard
 
 Protection from Evil and Good
 1
@@ -130,6 +148,7 @@ Protection from Evil and Good
 Touch
 V,S,M-holy water or powdered silver and iron, which the spell consumes
 Concentration,up to 10 minutes
+Bard
 
 Unseen Servant
 1
@@ -137,6 +156,7 @@ Unseen Servant
 60 feet
 V,S,M-a piece of string and a bit of wood
 1 hour
+Bard
 
 Witch Bolt
 1
