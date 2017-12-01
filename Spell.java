@@ -47,6 +47,10 @@ public class Spell {
 		return lvl;
 	}
 	
+	/**
+	 * getAction
+	 * @return action: what the spell does
+	 */
 	public String getAction() {
 		return action;
 	}
