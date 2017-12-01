@@ -3,8 +3,8 @@
  * Used for defining Weapon type Item objects to be used by D&D characters
  */
 public class Weapon extends Item{
-	private static char attackType;
-	private String[] weaponType;
+	final private char attackType;
+	final private String[] weaponType;
 	final private String damage;
 	/**
 	 * Weapon() 5-arg constructor
@@ -19,7 +19,7 @@ public class Weapon extends Item{
 		attackType = at;
 		damage = d;
 	}
-	public char attackType() {
+	public char getAttackType() {
 		return attackType;
 	}
 	
