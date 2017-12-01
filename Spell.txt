@@ -1,0 +1,6 @@
+Name
+Type(Cantrip || 1st Level)
+Casting Time
+Range
+Components
+Duration
