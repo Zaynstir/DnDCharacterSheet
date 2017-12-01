@@ -1,0 +1,3 @@
+Barbarian Main
+Rage,Unarmored Defense,Reckless Attack,Danger Sense
+Primal Path

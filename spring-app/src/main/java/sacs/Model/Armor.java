@@ -1,32 +1,50 @@
-
+/**
+ * Armor.java
+ * Used for defining Armor type Item objects
+ */
 public class Armor extends Item{
-	private static char[] possibleTypes;
-	final char[] types;
-	final int AC;
-	
-	public Armor(String n, char[] p, char[] t, int ac) {
-		super(n);
-		possibleTypes = p;
-		types = t;
+
+	final private char type;
+	final private int AC;
+	final private int maxDex;
+  
+	/**
+	 * Armor() 6-arg constructor
+	 * @param n: name of the armor item
+	 * @param desc: description of the armor item
+	 * @param p:
+	 * @param t: array of types that are encompassed by this armor item
+	 * @param ac: the "armor class" of this item, basically hitpoints gained from it
+	 * @param max: the max dexterity needed for this armor item
+	 */
+	public Armor(String n, String desc, char t, int ac, int m) {
+
+		super(n, desc);
+		type = t;
 		AC = ac;
+		maxDex = m;
 	}
-	
-	public char[] getPossibleTypes() {
-		return possibleTypes;
+
+	/**
+	 * getType
+	 * @return type: the damage type of the weapon
+	 */
+	public char getType() {
+		return type;
 	}
-	
-	public char getPossibleTypes(int index) {
-		return possibleTypes[index];
+  
+	/**
+	 * getMaxDex
+	 * @return maxDex: maximum amount of Dexterity that the wearer can use
+	 */
+	public int getMaxDex() {
+		return maxDex;
 	}
-	
-	public char[] getTypes() {
-		return types;
-	}
-	
-	public char getTypes(int index) {
-		return types[index];
-	}
-	
+
+	/**
+	 * getAC()
+	 * @return AC: armore class
+	 */
 	public int getAC() {
 		return AC;
 	}

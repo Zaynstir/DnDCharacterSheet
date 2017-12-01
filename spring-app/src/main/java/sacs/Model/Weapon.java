@@ -1,23 +1,41 @@
-
+/**
+ * Weapon.java
+ * Used for defining Weapon type Item objects to be used by D&D characters
+ */
 public class Weapon extends Item{
-	private static char[] possibleTypes;
-	final private int damage;
-	
-	public Weapon(String n, char[] p, int d) {
-		super(n);
-		possibleTypes = p;
+	private static char attackType;
+	private String[] weaponType;
+	final private String damage;
+	/**
+	 * Weapon() 5-arg constructor
+	 * @param n: name of Weapon Item
+	 * @param at: the type of damage of the weapon
+	 * @param wt: the types of the weapon
+	 * @param d: damage the weapon does
+	 */
+	public Weapon(String n, char at, String[] wt, String d) {
+		super(n, "");
+		weaponType = wt;
+		attackType = at;
 		damage = d;
 	}
-	
-	public char[] getPossibleTypes() {
-		return possibleTypes;
+	public char attackType() {
+		return attackType;
 	}
 	
-	public char getPossibleTypes(int index) {
-		return possibleTypes[index];
+	public String[] getWeaponType() {
+		return weaponType;
 	}
 	
-	public int getDamage() {
+	public String getWeaponType(int index) {
+		return weaponType[index];
+	}
+
+	/**
+	 * getDamage
+	 * @return damage: how much damage this weapon can do
+	 */
+	public String getDamage() {
 		return damage;
 	}
 }
