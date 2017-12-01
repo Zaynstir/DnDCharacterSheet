@@ -39,7 +39,7 @@ public class Class{
 		skillProf = sp;
 		lvl = l;
 	}
-	
+
   /**
 	 * getName
 	 * @return name: name of the class
@@ -47,55 +47,55 @@ public class Class{
 	public String getName() {
 		return name;
 	}
-	
 
-	/**
-	 * getStrMod
-	 * @return strMod: strength modifier
-	 */
-	public int getStrMod() {
-		return strMod;
-	}
 
-	/**
-	 * getDexMod
-	 * @return dexMod: dexterity modifier
-	 */
-	public int getDexMod() {
-		return dexMod;
-	}
-
-	/**
-	 * getConMod
-	 * @return conMod: constituion modifier
-	 */
-	public int getConMod() {
-		return conMod;
-	}
-
-	/**
-	 * getIntMod
-	 * @return intMod: intelligence modifier
-	 */
-	public int getIntMod() {
-		return intMod;
-	}
-
-	/**
-	 * getWisMod
-	 * @return wisMod: wisdom modifier
-	 */
-	public int getWisMod() {
-		return wisMod;
-	}
-
-	/**
-	 * getChaMod
-	 * @return chaMod: charisma modifier
-	 */
-	public int getChaMod() {
-		return chaMod;
-	}
+	// /**
+	//  * getStrMod
+	//  * @return strMod: strength modifier
+	//  */
+	// public int getStrMod() {
+	// 	return strMod;
+	// }
+    //
+	// /**
+	//  * getDexMod
+	//  * @return dexMod: dexterity modifier
+	//  */
+	// public int getDexMod() {
+	// 	return dexMod;
+	// }
+    //
+	// /**
+	//  * getConMod
+	//  * @return conMod: constituion modifier
+	//  */
+	// public int getConMod() {
+	// 	return conMod;
+	// }
+    //
+	// /**
+	//  * getIntMod
+	//  * @return intMod: intelligence modifier
+	//  */
+	// public int getIntMod() {
+	// 	return intMod;
+	// }
+    //
+	// /**
+	//  * getWisMod
+	//  * @return wisMod: wisdom modifier
+	//  */
+	// public int getWisMod() {
+	// 	return wisMod;
+	// }
+    //
+	// /**
+	//  * getChaMod
+	//  * @return chaMod: charisma modifier
+	//  */
+	// public int getChaMod() {
+	// 	return chaMod;
+	// }
 
 	/**
 	 * getFeat
