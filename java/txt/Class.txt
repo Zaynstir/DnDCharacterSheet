@@ -138,8 +138,5 @@ Intelligence,Wisdom
 -Component Pouch:Arcane Focus
 -Scholar's Pack:Explorer's Pack
 -Spellbook
-Spellcastign(W),Arcane Recovery
-
-
-
+Spellcasting(W),Arcane Recovery
 
