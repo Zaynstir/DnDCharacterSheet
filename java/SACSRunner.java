@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SACSRunner {
+	static ArrayList<Spell> spellRay = new ArrayList<Spell>();
 	static ArrayList<Race> raceRay = new ArrayList<Race>();
 	static ArrayList<Class> classRay = new ArrayList<Class>();
 	static ArrayList<Feat> featRay = new ArrayList<Feat>();
@@ -30,15 +31,36 @@ public class SACSRunner {
 
 
 	public static void main(String[] args) throws FileNotFoundException {
-	// public SACSRunner() throws FileNotFoundException {
 
-		Scanner raceFile = new Scanner(new FileReader("../Race.txt"));
-		Scanner classFile = new Scanner(new FileReader("../Class.txt"));
-		Scanner featFile = new Scanner(new FileReader("../Feats.txt"));
-		Scanner itemFile = new Scanner(new FileReader("../Item.txt"));
-		Scanner backgroundFile = new Scanner(new FileReader("../Background.txt"));
-		Scanner weaponFile = new Scanner(new FileReader("../Weapon.txt"));
-		Scanner armorFile = new Scanner(new FileReader("../Armor.txt"));
+		Scanner raceFile = new Scanner(new FileReader("../txt/Race.txt"));
+		Scanner classFile = new Scanner(new FileReader("../txt/Class.txt"));
+		Scanner featFile = new Scanner(new FileReader("../txt/Feats.txt"));
+		Scanner itemFile = new Scanner(new FileReader("../txt/Item.txt"));
+		Scanner backgroundFile = new Scanner(new FileReader("../txt/Background.txt"));
+		Scanner weaponFile = new Scanner(new FileReader("../txt/Weapon.txt"));
+		Scanner armorFile = new Scanner(new FileReader("../txt/Armor.txt"));
+		Scanner spellFile = new Scanner(new FileReader("../txt/Spell.txt"));
+
+		spellFile.nextLine();
+		spellFile.nextLine();
+		spellFile.nextLine();
+		spellFile.nextLine();
+		spellFile.nextLine();
+		spellFile.nextLine();
+		spellFile.nextLine();
+		spellFile.nextLine();
+		while(spellFile.hasNextLine()) {
+			String name = spellFile.nextLine();
+			int lvl = Integer.parseInt(spellFile.nextLine());
+			String action = spellFile.nextLine();
+			String range = spellFile.nextLine();
+			String[] comp = spellFile.nextLine().split(",");
+			String duration = spellFile.nextLine();
+			String[] sl = spellFile.nextLine().split(",");
+			spellFile.nextLine();
+			spellRay.add(new Spell(name, lvl, action, range, comp, duration,sl));
+		}
+
 
 		itemFile.nextLine();
 		itemFile.nextLine();
@@ -168,7 +190,9 @@ public class SACSRunner {
 		for(Item f : itemRay) {
 			System.out.println("ITEM:: "+f.getName());
 		}
-
+		for(Spell f : spellRay) {
+			System.out.println("Spell:: "+f.getName());
+		}
 	}
 
 	static public Feat findFeat(String name) {
@@ -181,7 +205,6 @@ public class SACSRunner {
 
 	static public Race findRace(String name) {
 		for(Race i : raceRay) {
-			System.out.println(i.getName());
 			if (i.getName().equals(name))
 				return i;
 		}
@@ -202,6 +225,22 @@ public class SACSRunner {
 
 	static public Class findClass(String name) {
 		for(Class i : classRay) {
+			if (i.getName().equals(name))
+				return i;
+		}
+		return null;
+	}
+
+	static public Background findBackground(String name) {
+		for(Background i : backgroundRay) {
+			if (i.getName().equals(name))
+				return i;
+		}
+		return null;
+	}
+
+	static public Spell findSpell(String name) {
+		for(Spell i : spellRay) {
 			if (i.getName().equals(name))
 				return i;
 		}

@@ -34,7 +34,7 @@ public class CharacterSheet {
 		intelligence = inte;
 		this.wis = wis;
 		this.cha = cha;
-		maxHealth = max;
+		maxHealth = classes[0].getHealth();
 	}
 
 	public CharacterSheet(String n, Race r, Class[] c, Spell[] s, Feat[] f, ArrayList<Item> i) {
@@ -47,13 +47,13 @@ public class CharacterSheet {
 		exp = 0;
 		lvl = 1;
 		Dice d = new Dice();
-		// str = d.roll("3d6") + race.getStrMod() + classes[0].getStrMod();
-		// dex = d.roll("3d6") + race.getDexMod() + classes[0].getDexMod();
-		// con = d.roll("3d6") + race.getConMod() + classes[0].getConMod();
-		// intelligence = d.roll("3d6") + race.getIntMod() + classes[0].getIntMod();
-		// wis = d.roll("3d6") + race.getWisMod() + classes[0].getWisMod();
-		// cha = d.roll("3d6") + race.getChaMod() + classes[0].getChaMod();
-		maxHealth = 12 + con;
+		str = d.roll("3d6") + race.getStrMod();
+		dex = d.roll("3d6") + race.getDexMod();
+		con = d.roll("3d6") + race.getConMod();
+		intelligence = d.roll("3d6") + race.getIntMod();
+		wis = d.roll("3d6") + race.getWisMod();
+		cha = d.roll("3d6") + race.getChaMod();
+		maxHealth = classes[0].getHealth() + con;
 	}
 
 	public String getName() {
