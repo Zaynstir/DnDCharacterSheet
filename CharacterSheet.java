@@ -53,7 +53,7 @@ public class CharacterSheet {
 		intelligence = d.roll("3d6") + race.getIntMod() + classes[0].getIntMod();
 		wis = d.roll("3d6") + race.getWisMod() + classes[0].getWisMod();
 		cha = d.roll("3d6") + race.getChaMod() + classes[0].getChaMod();
-		maxHealth = 12 + con;
+		maxHealth = classes[0].getHealth() + con;
 	}
 
 	public String getName() {
