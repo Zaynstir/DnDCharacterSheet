@@ -21,6 +21,24 @@ var java = require('java');
 java.classpath.push('./java/');
 java.classpath.push('.');
 
+// var SACSRunner = java.import('SACSRunner');
+
+// var sr = new SACSRunner();
+// console.log(sr);
+// console.log(SACSRunner);
+
+var result = java.callStaticMethodSync("SACSRunner", "main", java.newArray("java.lang.String", []));
+console.log(result);
+
+// console.log(SACSRunner.mainSync(java.newArray("java.lang.String",[])));
+// console.log(SACSRunner.findRaceSync('Dragonborn'));
+// console.log(SACSRunner.findRace(function(err, result){
+//     // return result;
+//     console.log(result);
+//}));
+// SACSRunner.main(java.newArray("java.lang.String", []));
+// console.log(SACSRunner.findRaceSync('Dragonborn'));
+// console.log(sr.findRaceSync('Dragonborn'));
 
 // var Item = java.import('Item');
 var Weapon = java.import('Weapon');

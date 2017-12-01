@@ -30,14 +30,15 @@ public class SACSRunner {
 
 
 	public static void main(String[] args) throws FileNotFoundException {
+	// public SACSRunner() throws FileNotFoundException {
 
-		Scanner raceFile = new Scanner(new FileReader("txt/Race.txt"));
-		Scanner classFile = new Scanner(new FileReader("txt/Class.txt"));
-		Scanner featFile = new Scanner(new FileReader("txt/Feats.txt"));
-		Scanner itemFile = new Scanner(new FileReader("txt/Item.txt"));
-		Scanner backgroundFile = new Scanner(new FileReader("txt/Background.txt"));
-		Scanner weaponFile = new Scanner(new FileReader("txt/Weapon.txt"));
-		Scanner armorFile = new Scanner(new FileReader("txt/Armor.txt"));
+		Scanner raceFile = new Scanner(new FileReader("../Race.txt"));
+		Scanner classFile = new Scanner(new FileReader("../Class.txt"));
+		Scanner featFile = new Scanner(new FileReader("../Feats.txt"));
+		Scanner itemFile = new Scanner(new FileReader("../Item.txt"));
+		Scanner backgroundFile = new Scanner(new FileReader("../Background.txt"));
+		Scanner weaponFile = new Scanner(new FileReader("../Weapon.txt"));
+		Scanner armorFile = new Scanner(new FileReader("../Armor.txt"));
 
 		itemFile.nextLine();
 		itemFile.nextLine();
@@ -180,10 +181,15 @@ public class SACSRunner {
 
 	static public Race findRace(String name) {
 		for(Race i : raceRay) {
+			System.out.println(i.getName());
 			if (i.getName().equals(name))
 				return i;
 		}
 		return null;
+	}
+
+	static public String testThisStat(String name) {
+		return "wubba lubba dub dub";
 	}
 
 	static public Item findItem(String name) {
