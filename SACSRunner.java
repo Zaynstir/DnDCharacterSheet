@@ -115,12 +115,7 @@ public class SACSRunner {
 		}
 		while(classFile.hasNextLine()) {
 			String name = classFile.nextLine();
-			int str = Integer.parseInt(classFile.nextLine());
-			int dex = Integer.parseInt(classFile.nextLine());
-			int con = Integer.parseInt(classFile.nextLine());
-			int nt = Integer.parseInt(classFile.nextLine());
-			int wis = Integer.parseInt(classFile.nextLine());
-			int cha = Integer.parseInt(classFile.nextLine());
+			int health = Integer.parseInt(classFile.nextLine());
 			String[] prof = classFile.nextLine().split(",");
 			String[] sv = classFile.nextLine().split(",");
 			String sp = classFile.nextLine();
@@ -137,7 +132,7 @@ public class SACSRunner {
 				feat[i] = findFeat(f[i]);
 			}
 			classFile.nextLine();
-			classRay.add(new Class(name, str, dex, con, nt, wis, cha, feat, -1, prof, sv, equipment, sp));
+			classRay.add(new Class(name, health, feat, -1, prof, sv, equipment, sp));
 		}
 		while(backgroundFile.hasNextLine()) {
 			String name = backgroundFile.nextLine();
