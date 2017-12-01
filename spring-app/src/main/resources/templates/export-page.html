@@ -44,13 +44,18 @@
       text-align: center;
     }
     .main-container{
-      flex-grow: 3;
+      flex-grow: 2;
       text-align: center;
+    }
+    .ltr{
+      display:flex;
+      flex-direction: row;
     }
 
     </style>
 </head>
 <body>
+  <!-- skills personality/bonds spells: name casting time range duration-->
     <!-- <p th:text="'Person name: ' + ${test} + '!'" /> -->
     <div class="header-holder">
       <div class="container-box header">
@@ -117,14 +122,52 @@
         </div>
       </div>
       <div class="main-container">
+        <div class="ltr">
+          <div class="container-box table">
+            <p class="label">Armor Class</p>
+          </div>
+          <div class="container-box table">
+            <p class="label">Initiative</p>
+          </div>
+          <div class="container-box table">
+            <p class="label">Speed</p>
+          </div>
+        </div>
+        <div class="container-box">
+          <p class="label">Hit points</p>
+        </div>
         <div class="container-box">
           <p class="label">Items</p>
         </div>
         <div class="container-box">
           <p class="label">Spells</p>
+          <div class="container-box spell-subitem ltr">
+            <p class="label">Name</p>
+          </div>
+          <div class="container-box spell-subitem ltr">
+            <p class="label">Casting time</p>
+          </div>
+          <div class="container-box spell-subitem ltr">
+            <p class="label">Duration</p>
+          </div>
+          <div class="container-box spell-subitem ltr">
+            <p class="label">Range</p>
+          </div>
         </div>
         <div class="container-box">
           <p class="label">Feats</p>
+        </div>
+        <div class="container-box">
+          <p class="label">Personality Traits</p>
+        </div>
+        <div class="container-box">
+          <p class="label">Ideals</p>
+        </div>
+        <div class="container-box">
+          <p class="label">Bonds</p>
+        </div>
+        <div class="container-box">
+          <p class="label">Flaws</p>
         </div>
       </div>
     </div>
