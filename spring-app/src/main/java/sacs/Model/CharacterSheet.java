@@ -47,12 +47,21 @@ public class CharacterSheet {
 		exp = 0;
 		lvl = 1;
 		Dice d = new Dice();
-		str = d.roll("3d6") + race.getStrMod() + classes[0].getStrMod();
-		dex = d.roll("3d6") + race.getDexMod() + classes[0].getDexMod();
-		con = d.roll("3d6") + race.getConMod() + classes[0].getConMod();
-		intelligence = d.roll("3d6") + race.getIntMod() + classes[0].getIntMod();
-		wis = d.roll("3d6") + race.getWisMod() + classes[0].getWisMod();
-		cha = d.roll("3d6") + race.getChaMod() + classes[0].getChaMod();
+		str = d.roll("3d6") + race.getStrMod();
+		dex = d.roll("3d6") + race.getDexMod();
+		con = d.roll("3d6") + race.getConMod();
+		intelligence = d.roll("3d6") + race.getIntMod();
+		wis = d.roll("3d6") + race.getWisMod();
+		cha = d.roll("3d6") + race.getChaMod();
+
+		//methods in class.java no longer exist
+		// str = d.roll("3d6") + race.getStrMod() + classes[0].getStrMod();
+		// dex = d.roll("3d6") + race.getDexMod() + classes[0].getDexMod();
+		// con = d.roll("3d6") + race.getConMod() + classes[0].getConMod();
+		// intelligence = d.roll("3d6") + race.getIntMod() + classes[0].getIntMod();
+		// wis = d.roll("3d6") + race.getWisMod() + classes[0].getWisMod();
+		// cha = d.roll("3d6") + race.getChaMod() + classes[0].getChaMod();
+
 		maxHealth = max;
 	}
 
