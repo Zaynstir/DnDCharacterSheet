@@ -51,7 +51,30 @@
       display:flex;
       flex-direction: row;
     }
-
+    .spell-subitem{
+      text-align: center;
+      flex-grow: 1;
+    }
+    .spell{
+      display:flex;
+      flex-direction: column;
+      text-align: center
+    }
+    .spell-table{
+      align-self: center;
+    }
+    table{
+      width: 100%;
+    }
+    tr:nth-child(even) {
+    background-color: #dddddd;
+    }
+    th{
+      font-size: 12px;
+    }
+    td{
+      font-size: 12px;
+    }
     </style>
 </head>
 <body>
@@ -139,9 +162,23 @@
         <div class="container-box">
           <p class="label">Items</p>
         </div>
-        <div class="container-box">
+        <div class="container-box spell">
           <p class="label">Spells</p>
-          <div class="container-box spell-subitem ltr">
+          <table class="spell-table">
+            <tr>
+              <th>Name</th>
+              <th>Casting Time</th>
+              <th>Duration</th>
+              <th>Range</th>
+            </tr>
+            <tr>
+              <td>example</td>
+              <td>example</td>
+              <td>example</td>
+              <td>example</td>
+            </tr>
+          </table>
+          <!-- <div class="container-box spell-subitem ltr">
             <p class="label">Name</p>
           </div>
           <div class="container-box spell-subitem ltr">
@@ -152,7 +189,7 @@
           </div>
           <div class="container-box spell-subitem ltr">
             <p class="label">Range</p>
-          </div>
+          </div> -->
         </div>
         <div class="container-box">
           <p class="label">Feats</p>
