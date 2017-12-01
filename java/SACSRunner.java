@@ -32,14 +32,14 @@ public class SACSRunner {
 
 	public static void main(String[] args) throws FileNotFoundException {
 
-		Scanner raceFile = new Scanner(new FileReader("../txt/Race.txt"));
-		Scanner classFile = new Scanner(new FileReader("../txt/Class.txt"));
-		Scanner featFile = new Scanner(new FileReader("../txt/Feats.txt"));
-		Scanner itemFile = new Scanner(new FileReader("../txt/Item.txt"));
-		Scanner backgroundFile = new Scanner(new FileReader("../txt/Background.txt"));
-		Scanner weaponFile = new Scanner(new FileReader("../txt/Weapon.txt"));
-		Scanner armorFile = new Scanner(new FileReader("../txt/Armor.txt"));
-		Scanner spellFile = new Scanner(new FileReader("../txt/Spell.txt"));
+		Scanner raceFile = new Scanner(new FileReader("txt/Race.txt"));
+		Scanner classFile = new Scanner(new FileReader("txt/Class.txt"));
+		Scanner featFile = new Scanner(new FileReader("txt/Feats.txt"));
+		Scanner itemFile = new Scanner(new FileReader("txt/Item.txt"));
+		Scanner backgroundFile = new Scanner(new FileReader("txt/Background.txt"));
+		Scanner weaponFile = new Scanner(new FileReader("txt/Weapon.txt"));
+		Scanner armorFile = new Scanner(new FileReader("txt/Armor.txt"));
+		Scanner spellFile = new Scanner(new FileReader("txt/Spell.txt"));
 
 		spellFile.nextLine();
 		spellFile.nextLine();

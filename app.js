@@ -22,22 +22,34 @@ java.classpath.push('./java/');
 java.classpath.push('.');
 
 var SACSRunner = java.import('SACSRunner');
+var CharacterSheet = java.import('CharacterSheet')
 
 // RUN MAIN method of sacsrunner
 var result = java.callStaticMethodSync("SACSRunner", "main", java.newArray("java.lang.String", []));
 
-console.log("34:: Race Object:: " + SACSRunner.findRaceSync('Dragonborn'));
-console.log("35:: Race Object:: " + SACSRunner.findRaceSync('Human'));
+// console.log("34:: Race Object:: " + SACSRunner.findRaceSync('Dragonborn'));
+// console.log("35:: Race Object:: " + SACSRunner.findRaceSync('Human'));
 
-// var Item = java.import('Item');
-var Weapon = java.import('Weapon');
+// constructing a character sheet object
+var race_Human = SACSRunner.findRaceSync('Human');
+var class_Bard = SACSRunner.findClassSync('Bard');
+
+var class_array = java.newArray('Class', [class_Bard]);
+
+var spell = SACSRunner.findSpellSync('Acid Splash');
+var spell_array = java.newArray('Spell', [spell]);
+
+var feat = SACSRunner.findFeatSync('Dwarven Combat Training');
+var feat_array = java.newArray('Feat', [feat]);
+
+var item_arraylist = java.newInstanceSync('java.util.ArrayList');
+item_arraylist.addSync(SACSRunner.findItemSync('Arrows'));
+
+var cs = new CharacterSheet('Tim', race_Human, class_array, spell_array, feat_array, item_arraylist);
+
+console.log("RACE: " + cs.getRaceSync().getNameSync());
 
 
-var wt = java.newArray("java.lang.String", ["hey", "bruh"]);
-var w = new Weapon("BOW", java.newChar("w"), wt, "10");
-
-// console.log(wt[0]);
-console.log(w.getWeaponTypeSync());
 
 app.get('/', function(req, res){
     res.render('index',{
