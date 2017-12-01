@@ -1,6 +1,8 @@
 Name
-Type(Cantrip || 1st Level)
+Spell Level(Cantrip || 1st Level)
+Components
 Casting Time
 Range
-Components
 Duration
+Concentration DC
+Saving Throw DC
