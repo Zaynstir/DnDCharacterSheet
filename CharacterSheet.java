@@ -34,7 +34,7 @@ public class CharacterSheet {
 		intelligence = inte;
 		this.wis = wis;
 		this.cha = cha;
-		maxHealth = max;
+		maxHealth = class[0].getHealth();
 	}
 
 	public CharacterSheet(String n, Race r, Class[] c, Spell[] s, Feat[] f, ArrayList<Item> i) {
