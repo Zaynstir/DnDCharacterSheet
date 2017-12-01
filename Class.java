@@ -120,4 +120,8 @@ public class Class{
 	public void setLevel(int l){
 		lvl = l;
 	}
+	
+	public void getHealth() {
+		return health;
+	}
 }
