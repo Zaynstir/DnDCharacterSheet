@@ -37,7 +37,7 @@ public class CharacterSheet {
 		maxHealth = max;
 	}
 
-	public CharacterSheet(String n, Race r, Class[] c, Spell[] s, Feat[] f, ArrayList<Item> i, int max) {
+	public CharacterSheet(String n, Race r, Class[] c, Spell[] s, Feat[] f, ArrayList<Item> i) {
 		name = n;
 		race = r;
 		classes = c;
@@ -53,7 +53,7 @@ public class CharacterSheet {
 		intelligence = d.roll("3d6") + race.getIntMod() + classes[0].getIntMod();
 		wis = d.roll("3d6") + race.getWisMod() + classes[0].getWisMod();
 		cha = d.roll("3d6") + race.getChaMod() + classes[0].getChaMod();
-		maxHealth = max;
+		maxHealth = 12 + con;
 	}
 
 	public String getName() {
