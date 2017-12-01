@@ -1,0 +1,145 @@
+Barbarian
+12
+Light Armor,Medium Armor,Shields,Simple Weapons,Martial Weapons
+Strength,Constitution
+2:Animal Handling,Athletics,Intimidation,Nature,Perception,Survival
+-Greataxe:Any Martial Melee Weapon
+-2 Handaxes:Any Simple Weapon
+-Explorer's Pack
+-4 Javelins
+Rage,Unarmored Defense
+ 
+Bard
+8
+Light Armor,Simple Weapons,Hand Crossbows,Longswords,Rapiers,Shortswords
+Dexterity,Charisma
+3|
+-3 Musical Instruments
+-Rapier:Longsword:Any Simple Weapon
+-Diplomat's Pack:Entertainer's Pack
+-Lute:Other Musical Instruments
+-Leather Armor
+-Dagger
+Spellcasting(B),Bardic Inspiration
+
+Cleric
+8
+Light Armor,Medium Armor,Shields,Simple Weapons
+Wisdom,Charisma
+2:History,Insight,Medicine,Persuasion,Religion
+-Mace:Warhammer(if proficient)
+-Scale Mail:Leather Armor:Chain Mail(if proficient)
+-Light Crossbow and 20 Bolts:Any Simple Weapon
+-Priest's Pack:Explorer's Pack
+-Shield:Holy Symbol
+Spellcasting(C),Divine Domain
+
+Druid
+8
+Light Armor,Medium Armor,Shields,Armor and Shields cannot have metal,Clubs,Daggers,Darts,Javelins,Maces,Quarterstaffs,Scimitar,Sickles,Slings,Spcars,Herbalism Kit
+Intelligence,Wisdom
+2:Arcana,Animal Handeling,Insight,Medicine,Nature,Perception,Religion,Survival
+-Wooden Shield:Any Simple Weapon
+-Scimitar:Any Simple Melee Weapon
+-Leather Armor
+-Explorer's Pack
+-Druidic Focus
+Spellcasting(D),Druidic
+
+Fighter
+10
+All Armor,Shields,Simple Weapons,Martial Weapons
+Strength,Constitution
+2:Acrobatics,Animal Handling,Insight,Intimidation,Perception,Survival
+-Chain mail:Leather, Longbow, and 20 Arrows
+-Martial Weapon and a shield:Two Martial Weapons
+-Light Crossbow and 20 bolts:Two Handaxes
+-Dungeoneer's Pack:Explorer's Pack
+Fighting Style,Second Wind
+
+Monk
+8
+Simple Weapons,Shortswords,One Type of Artisan's Tools OR One Musical Instrument
+Strength,Dexterity
+2:Acrobatics,Athletics,History,Insight,Religion,Stealth
+-Shortsword:Any Simple Weapon
+-Dungeoneer's Pack:Explorer's Pack
+-10 Darts
+Unarmored Defense,Martial Arts
+
+Paladin
+10
+All Armor,Shields,Simple Weapons,Martial Weapons
+Wisdom,Charisma
+2:Athletics,Insight,Intimidation,Medicine,Persuasion,Religion
+-Martial Weapon and a Shield:Two Martial Weapons
+-5 Javelins:Any Simple Weapons
+-Priest's Pack:Explorer's Pack
+-Chain Mail
+-Holy Symbol
+Devine Sense,Lay on Hands
+
+Ranger
+10
+Light Armor,Medium Armor,Shields,Simple Weapons,Martial Weapons
+Strength,Dexterity
+3:Animal Handling,Athletics,Insight,Investigation,Nature,Perception,Stealth,Survival
+-Scale Mail:Leather Armor
+-Two Shortswords:Two Simple Melee Weapons
+-Dungeoneer's Pack:Explorer's Pack
+-Longbow
+-20 Arrows
+-Quiver
+Favored Enemy,Natural Explorer
+
+Rogue
+8
+Light Armor,Simple Weapons,Rapier,Longswords,Hand Crossbows,Shortswords,Thieves' Tools
+Dexterity,Intelligence
+4:Acrobatics,Athletics,Deception,Insight,Intimidation,Investigation,Perception,Performance,Persuasion,Sleight of Hand,Stealth
+-Rapier:Shortsword
+-Shortbow and Quiver of 20 Arrows:Shortsword
+-Burglar's Pack:Dungeoneer's Pack:Explorer's Pack
+-Leather Armor
+-Two Daggers
+-Thieves' Tools
+Expertise,Sneak Attack,Thieves' Cant
+
+Sorcerer
+6
+Daggers,Darts,Slings,Quarterstaffs,Light Crossbows
+Constitution,Charisma
+2:Arcana,Deception,Insight,Intimidation,Persuasion,Religion
+-Light Crossbow and 20 bolts:Any Simple Weapons
+-Component Pouch:Arcane Focus
+-Dungeoneer's Pack:Explorer's Pack
+-Two Daggers
+Spellcasting(S),Sorcerous Origin
+
+Warlock
+8
+Light Armor,Simple Weapons
+Wisdom,Charisma
+2:Arcana,Deception,History,Intimidation,Investigation,Nature,Religion
+-Light Crossbow and 20 bolts:Any Simple Weapon
+-Component Pouch:Arcane Focus
+-Scholar's Pack:Dungeoneer's Pack
+-Leather Armor
+-Any Simple Weapon
+-Two Daggers
+Otherworldly Patron,Pact Magic
+
+Wizard
+6
+Daggers,Darts,Slings,Quarterstaffs,Light Crossbows
+Intelligence,Wisdom
+2:Arcana,History,Insight,Investigation,Medicine,Religion
+-Quarterstaff:Dagger
+-Component Pouch:Arcane Focus
+-Scholar's Pack:Explorer's Pack
+-Spellbook
+Spellcastign(W),Arcane Recovery
+
+
+
+
