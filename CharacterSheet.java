@@ -87,12 +87,20 @@ public class CharacterSheet {
 	public void setClasses(Class[] c) {
 		classes = c;
 	}
+	
+	public Spell[] getSpells() {
+		return spells;
+	}
+	
+	public void setSpells(Spell[] s) {
+		spells = s;
+	}
 
-	public Feat[] getFeat() {
+	public Feat[] getFeats() {
 		return feats;
 	}
 
-	public void setFeat(Feat[] f) {
+	public void setFeats(Feat[] f) {
 		feats = f;
 	}
 
@@ -100,6 +108,7 @@ public class CharacterSheet {
 		return items;
 	}
 
+	
 	public void setItems(ArrayList<Item> i) {
 		items = i;
 	}
@@ -133,6 +142,53 @@ public class CharacterSheet {
 		lvl = l;
 	}
 
+	public int getStr() {
+		return str;
+	}
+
+	public void setStr(int str) {
+		this.str = str;
+	}
+
+	public int getDex() {
+		return dex;
+	}
+
+	public void setDex(int dex) {
+		this.dex = dex;
+	}
+
+	public int getCon() {
+		return con;
+	}
+
+	public void setCon(int con) {
+		this.con = con;
+	}
+
+	public int getIntelligence() {
+		return intelligence;
+	}
+
+	public void setIntelligence(int intelligence) {
+		this.intelligence = intelligence;
+	}
+
+	public int getWis() {
+		return wis;
+	}
+
+	public void setWis(int wis) {
+		this.wis = wis;
+	}
+
+	public int getCha() {
+		return cha;
+	}
+
+	public void setCha(int cha) {
+		this.cha = cha;
+	}
 }
 //
 //
