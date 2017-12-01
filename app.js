@@ -19,26 +19,29 @@ var java = require('java');
 
 // Location of compiled java files
 java.classpath.push('./java/');
-
+java.classpath.push('.');
 
 
 // var Item = java.import('Item');
 var Weapon = java.import('Weapon');
 
 
-var wt = java.newArray("java.lang.String", ["some", "thing"]);
+var wt = java.newArray("java.lang.String", ["hey", "bruh"]);
 var w = new Weapon("BOW", java.newChar("w"), wt, "10");
 
 // console.log(wt[0]);
 console.log(w.getWeaponTypeSync());
 
 app.get('/', function(req, res){
-    // res.send(w.getWeaponTypeSync());
     res.render('index',{
         data: w.getWeaponTypeSync()
     });
-})
+});
+
+app.get('/export', function(req, res){
+    res.render('export-page',{});
+});
 
 app.listen(3000, function(){
     console.log("LISTENING ON 3000");
-})
+});
