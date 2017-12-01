@@ -48,6 +48,7 @@ public class SACSRunner {
 		spellFile.nextLine();
 		spellFile.nextLine();
 		spellFile.nextLine();
+		spellFile.nextLine();
 		while(spellFile.hasNextLine()) {
 			String name = spellFile.nextLine();
 			int lvl = Integer.parseInt(spellFile.nextLine());
@@ -174,7 +175,7 @@ public class SACSRunner {
 			backgroundFile.nextLine();
 			backgroundRay.add(new Background(name, sp, tp, item, feat, languages));
 		}
-		/*for(Feat f : featRay) {
+		for(Feat f : featRay) {
 			System.out.println("FEAT:: "+f.getName());
 		}
 		for(Race f : raceRay) {
@@ -191,7 +192,7 @@ public class SACSRunner {
 		}
 		for(Spell f : spellRay) {
 			System.out.println("Spell:: "+f.getName());
-		}*/
+		}
 	}
 	
 	static public Feat findFeat(String name) {
