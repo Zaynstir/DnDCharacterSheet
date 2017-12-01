@@ -6,78 +6,6 @@ Components(V = Verbal, S = Somatic, M = Material) (M-The material needed)
 Duration
 Class
 
-Blade Ward
-0
-1 Action
-Self
-V,S
-1 Round
-Bard
-
-Chill Touch
-0
-1 Action
-120 feet
-V,S
-1 Round
-Bard
-
-Eldritch Blast
-0
-1 Action
-120 feet
-V,S
-Instantaneous
-Bard
-
-Friends
-0
-1 Action
-Self
-S,M-a small amount of makeup applied to the face as this spell is cast
-Concentration,up to 1 minute
-Bard
-
-Mage Hand
-0
-1 Action
-30 feet
-V,S
-1 minute
-Bard
-
-Minor Illusion
-0
-1 Action
-30 feet
-S,M-a bit of fleece
-1 minute
-Bard
-
-Poison Spray
-0
-1 Action
-10 feet
-V,S
-Instantaneous
-Bard
-
-Prestidigation
-0
-1 Action
-10 feet
-V,S
-Up to 1 hour
-Bard
-
-True Strike
-0
-1 Action
-30 feet
-S
-Concentration,up to 1 round
-Bard
-
 Armor of Agathys
 1
 1 Action
@@ -94,12 +22,28 @@ V,S
 Instantaneous
 Bard
 
+Blade Ward
+0
+1 Action
+Self
+V,S
+1 Round
+Bard
+
 Charm Person
 1
 1 Action
 30 feet
 V,S
 1 hour
+Bard
+
+Chill Touch
+0
+1 Action
+120 feet
+V,S
+1 Round
 Bard
 
 Comprehend Languages
@@ -110,6 +54,14 @@ V,S,M-a pinch of soot and salt
 1 hour
 Bard
 
+Eldritch Blast
+0
+1 Action
+120 feet
+V,S
+Instantaneous
+Bard
+
 Expeditious Retreat
 1
 1 Bonus Action
@@ -117,6 +69,22 @@ Self
 V,S
 Concentration,up to 10 minute
 Bard
+
+Friends
+0
+1 Action
+Self
+S,M-a small amount of makeup applied to the face as this spell is cast
+Concentration,up to 1 minute
+Bard
+
+Guidance
+0
+1 Action
+Touch
+V,S
+Concentration,up to 1 minute
+Cleric
 
 Hellish Rebuke
 1
@@ -142,12 +110,84 @@ S,M-a lead-based ink worth at least 10 gp, which the spell consumes
 Instantaneous
 Bard
 
+Light
+0
+1 Action
+Touch
+V,M-a firefly or phosphorescent moss
+1 hour
+Cleric
+
+Mage Hand
+0
+1 Action
+30 feet
+V,S
+1 minute
+Bard
+
+Mending
+0
+1 Minute
+Touch
+V,S,M-two lodestones
+Instantaneous
+Cleric
+
+Minor Illusion
+0
+1 Action
+30 feet
+S,M-a bit of fleece
+1 minute
+Bard
+
+Poison Spray
+0
+1 Action
+10 feet
+V,S
+Instantaneous
+Bard
+
+Prestidigation
+0
+1 Action
+10 feet
+V,S
+Up to 1 hour
+Bard
+
 Protection from Evil and Good
 1
 1 Action
 Touch
 V,S,M-holy water or powdered silver and iron, which the spell consumes
 Concentration,up to 10 minutes
+Bard
+
+Resistance
+0
+1 Action
+Touch
+V,S,M-a miniature cloak
+Concentration,up to 1 minute
+Cleric
+
+Sacred Flame
+0
+1 Action
+60 feet
+V,S
+Instantaneous
+Cleric
+
+True Strike
+0
+1 Action
+30 feet
+S
+Concentration,up to 1 round
 Bard
 
 Unseen Servant
