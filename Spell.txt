@@ -1,8 +1,35 @@
 Name
 Spell Level(Cantrip || 1st Level)
-Components
-Casting Time
+Components(V = Verbal, S = Somatic, M = Material)
+Casting Time (String)
 Range
 Duration
 Concentration DC
 Saving Throw DC
+
+Level 0
+Blade Ward
+
+
+Chill Touch
+Eldritch Blast
+Friends
+Mage Hand
+Minor Illusion
+Poison Spray
+Prestidigation
+True Strike
+
+Level 1
+Armor of Agathys
+Arms of Hadar
+Charm Person
+Comprehend Languages
+Expeditious Retreat
+Hellish Rebuke
+Hex
+Illusory Script
+Protection from Evil and Good
+Unseen Servant
+Witch Bolt
+
