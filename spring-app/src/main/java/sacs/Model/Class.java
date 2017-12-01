@@ -6,12 +6,7 @@ import java.util.ArrayList;
 
 public class Class{
 	final private String name;
-	final private int strMod;
-	final private int dexMod;
-	final private int conMod;
-	final private int intMod;
-	final private int wisMod;
-	final private int chaMod;
+	final private int health;
 	final private String[] prof;
 	final private String[] SV;
 	final private Feat[] feats;
@@ -34,14 +29,9 @@ public class Class{
 	 * @param e: equipment
 	 * @param sp: skill proficiencies
 	 */
-	public Class(String n, int s, int d, int c, int i, int w, int ch, Feat[] f, int l, String[] p, String[] sv, ArrayList<String> e, String sp) {
+	public Class(String n, int h, Feat[] f, int l, String[] p, String[] sv, ArrayList<String> e, String sp) {
 		name = n;
-		strMod = s;
-		dexMod = d;
-		conMod = c;
-		intMod = i;
-		wisMod = w;
-		chaMod = ch;
+		health = h;
 		feats = f;
 		prof = p;
 		SV = sv;
