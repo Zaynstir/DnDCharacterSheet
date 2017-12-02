@@ -133,6 +133,41 @@ public class CharacterSheet {
 		lvl = l;
 	}
 
+	public int getStr() {
+		return this.str;
+	}
+
+	public int getDex() {
+		return this.dex;
+	}
+
+	public int getCon() {
+		return this.con;
+	}
+
+	public int getInt() {
+		return this.intelligence;
+	}
+
+	public int getWis() {
+		return this.wis;
+	}
+
+	public int getCha() {
+		return this.cha;
+	}
+
+	public int getMaxHealth() {
+		return this.maxHealth;
+	}
+
+	public Spell[] getSpells() {
+		return this.spells;
+	}
+
+	public Feat[] getFeats() {
+		return this.feats;
+	}
 }
 //
 //

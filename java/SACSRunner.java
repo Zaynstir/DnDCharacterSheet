@@ -379,4 +379,28 @@ public class SACSRunner {
 
 		cs = new CharacterSheet(name, race, classes, spells, feats, items, exp, lvl, str, dex, con, intelligence, wis, cha, 10);
 	}
+
+	public static ArrayList<Spell> getSpellRay(){
+		return spellRay;
+	}
+
+	public static ArrayList<Race> getRaceRay() {
+		return raceRay;
+	}
+
+	public static ArrayList<Class> getClassRay() {
+		return classRay;
+	}
+
+	public static ArrayList<Feat> getFeatRay() {
+		return featRay;
+	}
+
+	public static ArrayList<Item> getItemRay() {
+		return itemRay;
+	}
+
+	public static ArrayList<Background> getBackgroundRay() {
+		return backgroundRay;
+	}
 }

@@ -115,6 +115,7 @@
 <body>
   <!-- skills personality/bonds spells: name casting time range duration-->
     <!-- <p th:text="'Person name: ' + ${test} + '!'" /> -->
+    <form method="post">
     <div class="header-holder">
       <div class="container-box header">
         <input class="basic" style="margin-top:10%;" type="text" name="characterName">
@@ -125,12 +126,13 @@
           <div class="container-box table">
 
 
-            <form class="basic">
+            <!-- <form class="basic"> -->
               <select name="class">
-                <option value="example">Example</option>
-                <option value="example">Example</option>
+                  {{#each classes}}
+                    <option value="{{this.name}}">{{this.name}}</option>
+                  {{/each}}
               </select>
-            </form>
+            <!-- </form> -->
             <p class="label">Class</p>
             <input class="basic small-num" type="text" name="level">
             <p class="label">Level</p>
@@ -146,16 +148,17 @@
         </div>
         <div class="row">
           <div class="container-box table">
-            <form class="basic">
+            <!-- <form class="basic"> -->
               <select name="race">
-                <option value="example">Example</option>
-                <option value="example">Example</option>
+                 {{#each races}}
+                    <option value="{{this.name}}">{{this.name}}</option>
+                 {{/each}}
               </select>
-            </form>
+            <!-- </form> -->
             <p class="label">Race</p>
           </div>
           <div class="container-box table">
-            <form class="basic">
+            <!-- <form class="basic"> -->
               <select name="alignment">
                 <option value="LG">Lawful Good</option>
                 <option value="NG">Neutral Good</option>
@@ -167,7 +170,7 @@
                 <option value="NE">Neutral Evil</option>
                 <option value="CE">Chaotic Evil</option>
               </select>
-            </form>
+            <!-- </form> -->
             <p class="label">Alignment</p>
           </div>
           <div class="container-box table">
@@ -317,11 +320,21 @@
           <input class="three small-num" type="text" name="hitPoints">
         </div>
         <div class="container-box">
-          <p class="label">Items</p>
+          <h4 class="label">Items</h4> <p> hold ctrl/cmd for multiple items</p>
+          <select style="height: 200px;" name="items" multiple>
+              {{#each items}}
+                <option style="font-size: 14px;" value="{{this.name}}"> {{this.name}} </option>
+              {{/each}}
+          </select>
         </div>
-        <div class="container-box spell">
-          <p class="label">Spells</p>
-          <table class="spell-table">
+        <div class="container-box">
+            <h4 class="label">Spells</h4> <p> hold ctrl/cmd for multiple items</p>
+            <select style="height: 200px;" name="items" multiple>
+                {{#each spells}}
+                  <option style="font-size: 14px;" value="{{this.name}}"> {{this.name}} </option>
+                {{/each}}
+            </select>
+          <!-- <table class="spell-table">
             <tr>
               <th>Name</th>
               <th>Casting Time</th>
@@ -334,7 +347,8 @@
               <td>example</td>
               <td>example</td>
             </tr>
-          </table>
+          </table> -->
+
           <!-- <div class="container-box spell-subitem ltr">
             <p class="label">Name</p>
           </div>
@@ -349,9 +363,14 @@
           </div> -->
         </div>
         <div class="container-box">
-          <p class="label">Feats</p>
+            <h4 class="label">Feats</h4> <p> hold ctrl/cmd for multiple items</p>
+            <select style="height: 200px;" name="items" multiple>
+                {{#each feats}}
+                  <option style="font-size: 14px;" value="{{this.name}}"> {{this.name}} </option>
+                {{/each}}
+            </select>
         </div>
-        <div class="container-box">
+        <!-- <div class="container-box">
           <p class="label">Personality Traits</p>
         </div>
         <div class="container-box">
@@ -361,10 +380,11 @@
           <p class="label">Bonds</p>
         </div>
         <div class="container-box">
-          <p class="label">Flaws</p>
-        </div>
+          <p class="label">Flaws</p> -->
+        <!-- </div> -->
       </div>
     </div>
-
+    <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
