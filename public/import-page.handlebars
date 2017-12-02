@@ -138,7 +138,11 @@
             <p class="label">Level</p>
           </div>
           <div class="container-box table">
-            <textarea rows="5" cols="35"></textarea>
+            <select name="background">
+                {{#each backgrounds}}
+                    <option value="{{this.name}}">{{this.name}}</option>
+                {{/each}}
+            </select>
             <p class="label">Background</p>
           </div>
           <div class="container-box table">
@@ -160,21 +164,21 @@
           <div class="container-box table">
             <!-- <form class="basic"> -->
               <select name="alignment">
-                <option value="LG">Lawful Good</option>
-                <option value="NG">Neutral Good</option>
-                <option value="CG">Chaotic Good</option>
-                <option value="LN">Lawful Neutral</option>
-                <option value="NN">True Neutral</option>
-                <option value="CN">Chaotic Neutral</option>
-                <option value="LE">Lawful Evil</option>
-                <option value="NE">Neutral Evil</option>
-                <option value="CE">Chaotic Evil</option>
+                <option value="Lawful Good">Lawful Good</option>
+                <option value="Neutral Good">Neutral Good</option>
+                <option value="Chaotic Good">Chaotic Good</option>
+                <option value="Lawful Neutral">Lawful Neutral</option>
+                <option value="True Neutral">True Neutral</option>
+                <option value="Chaotic Neutral">Chaotic Neutral</option>
+                <option value="Lawful Evil">Lawful Evil</option>
+                <option value="Neutral Evil">Neutral Evil</option>
+                <option value="Chaotic Evil">Chaotic Evil</option>
               </select>
             <!-- </form> -->
             <p class="label">Alignment</p>
           </div>
           <div class="container-box table">
-            <input class="basic small-num" type="text" name="experience">
+            <!-- <input class="basic small-num" type="text" name="experience"> -->
             <p class="label">Experience Points</p>
           </div>
         </div>
@@ -182,7 +186,7 @@
     </div>
 
     <div class="body-container">
-      <div class="sidebar-container">
+      <!-- <div class="sidebar-container">
         <div class="side container-box">
           <p class="label">Strength</p>
           <input class=" small-num" type="text" name="strength">
@@ -207,99 +211,99 @@
           <p class="label">Charisma</p>
           <input class=" small-num" type="text" name="charisma">
         </div>
-      </div>
-      <div class="abilities-container">
+      </div> -->
+      <!-- <div class="abilities-container">
         <div class="ability container-box">
-          <input class="ability-radio" type="radio" name="Acrobatics" value="level">
+          <input class="ability-radio" type="checkbox" name="Acrobatics" value="level">
           <input class=" small-num" type="text" name="Acrobatics">
           <p class="ability-val label">Acrobatics</p>
         </div>
         <div class="ability container-box">
-          <input class="ability-radio" type="radio" name="Animal Handling" value="level">
+          <input class="ability-radio" type="checkbox" name="Animal Handling" value="level">
           <input class=" small-num" type="text" name="Animal Handling">
           <p class="ability-val label">Animal Handling</p>
         </div>
         <div class="ability container-box">
-          <input class="ability-radio" type="radio" name="Arcana" value="level">
+          <input class="ability-radio" type="checkbox" name="Arcana" value="level">
           <input class=" small-num" type="text" name="Arcana">
           <p class="ability-val label">Arcana</p>
         </div>
         <div class="ability container-box">
-          <input class="ability-radio" type="radio" name="Athletics" value="level">
+          <input class="ability-radio" type="checkbox" name="Athletics" value="level">
           <input class=" small-num" type="text" name="Athletics">
           <p class="ability-val label">Athletics</p>
         </div>
         <div class="ability container-box">
-          <input class="ability-radio" type="radio" name="Deception" value="level">
+          <input class="ability-radio" type="checkbox" name="Deception" value="level">
           <input class=" small-num" type="text" name="Deception">
           <p class="ability-val label">Deception</p>
         </div>
         <div class="ability container-box">
-          <input class="ability-radio" type="radio" name="History" value="level">
+          <input class="ability-radio" type="checkbox" name="History" value="level">
           <input class=" small-num" type="text" name="History">
           <p class="ability-val label">History</p>
         </div>
         <div class="ability container-box">
-          <input class="ability-radio" type="radio" name="Insight" value="level">
+          <input class="ability-radio" type="checkbox" name="Insight" value="level">
           <input class=" small-num" type="text" name="Insight">
           <p class="ability-val label">Insight</p>
         </div>
         <div class="ability container-box">
-          <input class="ability-radio" type="radio" name="Intimidation" value="level">
+          <input class="ability-radio" type="checkbox" name="Intimidation" value="level">
           <input class=" small-num" type="text" name="Intimidation">
           <p class="ability-val label">Intimidation</p>
         </div>
         <div class="ability container-box">
-          <input class="ability-radio" type="radio" name="Investigation" value="level">
+          <input class="ability-radio" type="checkbox" name="Investigation" value="level">
           <input class=" small-num" type="text" name="Investigation">
           <p class="ability-val label">Investigation</p>
         </div>
         <div class="ability container-box">
-          <input class="ability-radio" type="radio" name="Medicine" value="level">
+          <input class="ability-radio" type="checkbox" name="Medicine" value="level">
           <input class=" small-num" type="text" name="Medicine">
           <p class="ability-val label">Medicine</p>
         </div>
         <div class="ability container-box">
-          <input class="ability-radio" type="radio" name="Nature" value="level">
+          <input class="ability-radio" type="checkbox" name="Nature" value="level">
           <input class=" small-num" type="text" name="Nature">
           <p class="ability-val label">Nature</p>
         </div>
         <div class="ability container-box">
-          <input class="ability-radio" type="radio" name="Perception" value="level">
+          <input class="ability-radio" type="checkbox" name="Perception" value="level">
           <input class=" small-num" type="text" name="Perception">
           <p class="ability-val label">Perception</p>
         </div>
         <div class="ability container-box">
-          <input class="ability-radio" type="radio" name="Performance" value="level">
+          <input class="ability-radio" type="checkbox" name="Performance" value="level">
           <input class=" small-num" type="text" name="Performance">
           <p class="ability-val label">Performance</p>
         </div>
         <div class="ability container-box">
-          <input class="ability-radio" type="radio" name="Persuasion" value="level">
+          <input class="ability-radio" type="checkbox" name="Persuasion" value="level">
           <input class=" small-num" type="text" name="Persuasion">
           <p class="ability-val label">Persuasion</p>
         </div>
         <div class="ability container-box">
-          <input class="ability-radio" type="radio" name="Religion" value="level">
+          <input class="ability-radio" type="checkbox" name="Religion" value="level">
           <input class=" small-num" type="text" name="Religion">
           <p class="ability-val label">Religion</p>
         </div>
         <div class="ability container-box">
-          <input class="ability-radio" type="radio" name="Sleight of Hand" value="level">
+          <input class="ability-radio" type="checkbox" name="Sleight of Hand" value="level">
           <input class=" small-num" type="text" name="Sleight of Hand">
           <p class="ability-val label">Sleight of Hand</p>
         </div>
         <div class="ability container-box">
-          <input class="ability-radio" type="radio" name="Stealth" value="level">
+          <input class="ability-radio" type="checkbox" name="Stealth" value="level">
           <input class=" small-num" type="text" name="Stealth">
           <p class="ability-val label">Stealth</p>
         </div>
         <div class="ability container-box">
-          <input class="ability-radio" type="radio" name="Survival" value="level">
+          <input class="ability-radio" type="checkbox" name="Survival" value="level">
           <input class=" small-num" type="text" name="Survival">
           <p class="ability-val label">Survival</p>
         </div>
-      </div>
+      </div> -->
       <div class="main-container">
         <div class="ltr">
           <div class="container-box table">
@@ -329,59 +333,22 @@
         </div>
         <div class="container-box">
             <h4 class="label">Spells</h4> <p> hold ctrl/cmd for multiple items</p>
-            <select style="height: 200px;" name="items" multiple>
+            <select style="height: 200px;" name="spells" multiple>
                 {{#each spells}}
                   <option style="font-size: 14px;" value="{{this.name}}"> {{this.name}} </option>
                 {{/each}}
             </select>
-          <!-- <table class="spell-table">
-            <tr>
-              <th>Name</th>
-              <th>Casting Time</th>
-              <th>Duration</th>
-              <th>Range</th>
-            </tr>
-            <tr>
-              <td>example</td>
-              <td>example</td>
-              <td>example</td>
-              <td>example</td>
-            </tr>
-          </table> -->
 
-          <!-- <div class="container-box spell-subitem ltr">
-            <p class="label">Name</p>
-          </div>
-          <div class="container-box spell-subitem ltr">
-            <p class="label">Casting time</p>
-          </div>
-          <div class="container-box spell-subitem ltr">
-            <p class="label">Duration</p>
-          </div>
-          <div class="container-box spell-subitem ltr">
-            <p class="label">Range</p>
-          </div> -->
         </div>
         <div class="container-box">
             <h4 class="label">Feats</h4> <p> hold ctrl/cmd for multiple items</p>
-            <select style="height: 200px;" name="items" multiple>
+            <select style="height: 200px;" name="feats" multiple>
                 {{#each feats}}
                   <option style="font-size: 14px;" value="{{this.name}}"> {{this.name}} </option>
                 {{/each}}
             </select>
         </div>
-        <!-- <div class="container-box">
-          <p class="label">Personality Traits</p>
-        </div>
-        <div class="container-box">
-          <p class="label">Ideals</p>
-        </div>
-        <div class="container-box">
-          <p class="label">Bonds</p>
-        </div>
-        <div class="container-box">
-          <p class="label">Flaws</p> -->
-        <!-- </div> -->
+
       </div>
     </div>
     <input type="submit" value="Submit">

@@ -37,7 +37,7 @@ public class CharacterSheet {
 		maxHealth = classes[0].getHealth();
 	}
 
-	public CharacterSheet(String n, Race r, Class[] c, Spell[] s, Feat[] f, ArrayList<Item> i) {
+	public CharacterSheet(String n, Race r, Class[] c, Spell[] s, Feat[] f, ArrayList<Item> i, Background bg) {
 		name = n;
 		race = r;
 		classes = c;
@@ -46,6 +46,7 @@ public class CharacterSheet {
 		items = i;
 		exp = 0;
 		lvl = 1;
+		background = bg;
 		Dice d = new Dice();
 		str = d.roll("3d6") + race.getStrMod();
 		dex = d.roll("3d6") + race.getDexMod();
