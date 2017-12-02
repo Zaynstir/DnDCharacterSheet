@@ -8,6 +8,12 @@ as well as npm installed on your system.
 
 1. clone repo
 (1.5 compile all java files in the java folder)
-2. run `npm i` to install all packages
+2. install the packages:
+    `npm install express`
+    `npm install express-handlebars`
+    `npm install body-parser`
+    `npm install java`
+
+    Compile java in "/java" folder with `javac *.java`
 3. run `node app.js`
 4. open http://localhost:3000/import in your browser to create a character sheet
