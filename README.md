@@ -17,3 +17,5 @@ as well as npm installed on your system.
     Compile java in "/java" folder with `javac *.java`
 3. run `node app.js` from the top level of the repo
 4. open http://localhost:3000/import in your browser to create a character sheet
+
+5. press submit or hit enter to build the sheet and take you to the new character sheet page at http://localhost:3000/export
