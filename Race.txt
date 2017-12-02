@@ -82,7 +82,7 @@ Elvish
 Darkvision,Keen Senses,Fey Ancestry,Trance,Languages
 High Elf,Wood Elf,Dark Elf (Drow)
  
-Lightfoot
+Lightfoot Halfling
 0
 2
 0
@@ -94,7 +94,7 @@ Halfling,Common
 Natualy Stealthy,Lucky,Brave,Halfling Nimbleness,Languages
 
 
-Stout
+Stout Halfling
 0
 2
 1
