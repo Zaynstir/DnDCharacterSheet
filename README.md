@@ -7,7 +7,7 @@
 as well as npm installed on your system.
 
 1. clone repo
-(1.5 compile all java files in the java folder)
+
 2. install the packages:
     `npm install express`
     `npm install express-handlebars`
