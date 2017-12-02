@@ -1,0 +1,525 @@
+Darkvision
+
+See out 60 feet in dim lighting.
+Dwarf,Elf,Gnome,Half-Elf,Half-Orc,Tiefling
+
+Dwarven Resilience
+
+Advantage on Saving Throws against poison.,Resistance against poison damage.
+Dwarf
+
+Dwarven Combat Training
+
+Proficiency with Battleaxe\ Handaxe\ Throwing Hammer\ and Warhammer.
+Dwarf
+
+Tool Proficiency
+
+Proficiency with artisan's of your choice: Smith's Tools\ Brewer's Supplies\ or Mason's Tools.
+Dwarf
+
+Stonecunning
+
+Double Proficient with history when relating to the origin of stonework.
+Dwarf
+
+Languages
+
+You can speak\ read\ and write an extra language.
+
+
+Dwarven Toughness
+
+Hit point maximum increases by one\ and it increases every time you gain a level.
+Hill Dwarf
+
+Dwarven Armor Training
+
+Proficient in Light and Medium Armor
+Mountain Dwarf
+
+Keen Senses
+
+Proficiency in Perception
+Elf
+
+Fey Ancestry
+
+Advantage on Saving Throws against being charmed. Magic cannot put you to sleep.
+Elf,Half-Elf
+
+Trance
+
+4 hours of deep semi-conscious meditation which is equivalent to 8 hours of sleep.
+Elf
+
+Elf Weapon Training
+
+Proficient in Longsword\ Shortsword\ Shortbow\ and Longbow.
+High Elf
+
+Cantrip
+
+One cantrip from the wizard spell list. Intelligence is your spellcasting ability.
+High Elf
+
+Mask of the Wild
+
+Can attempt to hide even when only lightly obscured by foliage\ heavy rain\ falling snow\ mist\ and other natural phenomena.
+Wood Elf
+
+Superior Darvision
+
+Darkvision but with an extra 60 feet.
+Dark Elf (Drow)
+
+Sunlight Sensitivity
+
+Disavantage on attack rolls and on Perception checks when in direct sunlight.
+Dark Elf (Drow)
+
+Drow Magic
+
+You know Dancing Lights cantrip., You can cast Faerie Fire at Level 3., You can cast Darkness at Level 5., Charisma is you spellcasting ability.
+Dark Elf (Drow)
+
+Drow Weapon Training
+
+Proficient in Rapiers, Shortswords, and Hand Crossbows
+Dark Elf (Drow)
+ 
+Lucky
+
+Roll on 1 on attack roll\ ability checks\ or saving throws you can reroll the die and must use the new roll.
+Halfling
+
+Brave
+
+You have advantage on saving throws against being frightened.
+Halfling
+
+Halfling Nimbleness
+
+You can move through the space of any creature that is of a size larger than yours.
+Halfling
+
+Naturally Stealthy
+
+You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.
+Lightfoot
+
+Stout Resilience
+
+You have advantage on saving throws against poison.,You have resistance against poison damage.
+Stout
+
+Draconic Ancestry
+
+Choose One::,Black Acid 5 by 30 ft. line (Dex. save),Blue Lightning 5 by 30 ft. line (Dex. save),Brass Fire 5 by 30 ft. line (Dex. save),Bronze Lightning 5 by 30 ft. line (Dex. save),Copper Acid 5 by 30 ft. line (Dex. save),Cold Fire 15 ft. cone (Dex. save),Green Poison 15 ft. cone (Con. save),Red Fire 15 ft. cone (Dex. save),Silver Cold 15 ft. cone (Con. save),White Cold 15 ft. cone (Con. save)
+Dragonborn
+
+Breath Weapon
+
+When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution m odifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.,After you use your breath weapon, you can’t use it again until you com plete a short or long rest.
+Dragonborn
+
+Damage Resistance
+
+Resistance to your Draconic Ancestry
+Dragonborn
+
+Gnome Cunning
+
+You have advantage on all Intelligence/ Wisdom/ and Charisma saving throws against magic.
+Gnome
+
+Natural Illusionist
+
+You know the Minor Illusion Cantrip, Intelligence is spellcasting ability.
+Forest Gnome
+
+Speak with Small Beasts
+
+You can communicate simple ideas with small beasts.
+Forest Gnome
+
+Artificer's Lore
+
+Double proficiency in history when looking at magic items\ alchemical objects\ or technological devices.
+Rock Gnome
+
+Tinker
+
+You can spend 1 hour and 10 GP to create a tiny clockwork device that functions for 24 hours.,Clockwork Toy,Fire Starter,Music Box
+Rock Gnome
+
+Skill Versatility
+
+You gain proficiency in two skills of your choice.
+Half-Elf
+
+2 Other Skills
+
+Choose 2 any other Skills to become proficient in.
+Half-Elf
+
+Menacing
+
+Proficiency in the Indtimidation Skill.
+Half-Orc
+
+Relentless Endurance
+
+When reduced to 0 Hit Points you can drop to 1 Hit Point instead.
+Half-Orc
+
+Savage Attacks
+
+When you score a critical hit with a melee weapon\ you can roll one of the weapon's damage dice another time.
+Half-Orc
+
+Hellish Resistance
+
+You have resistance against to fire damage.
+Tiefling
+
+Infernal Legacy
+
+You know the Thaumaturgy cantrip.,3rd Level -> Hellish Rebuke spell.,5th Level -> Darkness Spell.,Charisma is spellcasting ability.
+Tiefling
+
+Rage
+
+If you aren't wearing heavy armor:,-You have advantage on Strength checks and Strength saving throws.,When making melee weapon attacks you gain a bonus to the damage roll indicated by Rage Damage Column of the Barbarian table.,You have resistance to bludgeoning\ piercing\ and slashing damage.,Cannot cast spells., Only lasts for a minute.,Can gain back all Rages after a long rest.
+Barbarian
+
+Unarmored Defense
+
+When you don't have armor on\ your Armor Class is 10 + Dexterity Modifier + Constitution Modifier.
+Barbarian
+
+Spellcasting(B)
+
+You know two cantrips and 4 1st Level Spells from the Bard spell lists.,Charisma is your spellcasting ability.,You can cast any bard spell you know as a ritual if it has the ritual tag.,You can use a Musical Instrument as a spellcasting focus.
+Bard
+
+Bardic Inspiration
+
+Choose one creature 60 Ft. infront of you and they get a 1d6 bardic dice.,This dice allows that creature to roll and add it to an attack roll, ability check, or saving throw.,It needs to be applied before the DM says whether the roll succeds or fails.,Can use the number of times as your Charisma modifier and recharged after a long rest.
+Bard
+
+Spellcasting(C)
+
+You know 3 cantrips and (wisdom modifier + cleric level) spells from the cleric spell list.,Wisdom is your spellcasting ability.,You can cast any cleric spell you know as a ritual if it has the ritual tag.,You can use a Holy Symbol as a spellcasting focus.
+Cleric
+
+Divine Domain
+
+Choose a domain related to your diety:,Knowledge\ Life\ Light\ Nature\ Tempest\ Trickery\ or War.,This grants you a diety, domain spells, and some other features.
+Cleric
+
+Drudic
+
+A secret language of druids.
+Druid
+
+Spellcasting(D)
+
+You know two cantrips and (Wisdom + Druid level) spells from the druid spell list.,Wisdom is your spellcasting ability.,You can cast any druid spell you know as a ritual if it has the ritual tag.,You can use a Druidic Focus as a spellcasting focus.
+Druid
+
+Fighting Style
+
+Choose a style of fighting:,Archery\ Defense\ Dueling\Great Weapon Fighting\ Protection\ Two-Weapon Fighting.
+Fighter
+
+Second Wind
+
+You have a limited well of stamina that you can use to protect yourself of harm.
+Fighter
+
+Unarmored Defense
+
+With No Armor nor Shield your Armor Class is 10 + Dexterity Modifier + Wisdom Modifier.
+Monk
+
+Martial Arts
+
+You are either unarmed/wielding monk weapons and no armor and no shield. You get:,Can use Dexterity modifier for attack and damage rolls.,Roll a d4 in place of unarmored strike or monk weapons.,When attacking unarmed or with Monk weapons you can make an unarmed strike as a bonus weapon.
+Monk
+
+Divine Sense
+
+You can become aware of all celestial\ fiend\ or undead within 60 feet that are not behind cover and a place or object that has been consecreated or desecrated.
+Paladin
+
+Lay on Hands
+
+You can heal.,5 x paladin level.
+Paladin
+
+Favored Enemy
+
+You are good at studying\ tracking\ hunting\ and even talking to a certain type of enemy.,Chose one:,Abberations\ Beats\ Celestials\ Constructs\ Dragons\ Elementals\ Fey\ Fiends\ Giants\ Monstrosities\ Oozes\ Plants\ Undead\ or Two races of humanoids.,You have wisdom(survival) and intelligence(history) checks about them.,You learn their language.
+Ranger
+
+Natural Explorer
+
+Choose a favored terrain:,Artic\ Coast\ Desert\ Forest\ Grassland\ Mountain\ Swamp\ or the Underdark.,Intelligence and Wisdom checks are doubled(if proficient) in your favored terrain.,Can't get lost(unless magical).,Difficult terrain doesn't slow your group down.,You always remain alert to danger.,If traveling alone\ you can move more stealthly at a normal pace.,You can find twice as much food.,You good at tracking other creatures.
+Ranger
+
+Expertise
+
+Choose two skills that you are proficient in and double those two proficiency bonuses.
+Rogue
+
+Sneak Attack
+
+You can roll an extra 1d6 damage if your target doesn't notice you.
+Rogue
+
+Thieves' Cant
+
+A language spoken by rogues that allows them to secretly communicate through normal looking messages.
+Rogue
+
+Spellcasting(S)
+
+You know 4 cantrips and 2 1st level spells from the Sorcerer's spells list.,Charisma is your spellcasting ability.,You can use a Arcane Focus as a spellcasting focus.
+Sorcerer
+
+Sorcerous Origin
+
+Choose an origin:,Draconic\ Bloodline\ or Wild Magic.
+Sorcerer
+
+Otherworldly Patron
+
+Choose an otherworldly being:.The Archfey\ The Fiend\ or the Great Old One.,It grants you certain abilities.
+Warlock
+
+Pact Magic
+
+You know two cantrips and two 1st level spells from the Warlock's spell list.,Charisma is your spellcasting ability.,You can use a Arcane Focus as a spellcasting focus.
+Warlock
+
+Spellcasting(W)
+
+You know 3 cantrips and 6 1st level spells(inside a spellbook) from the Wizard's spell list.,Intelligence is you spellcasting ability.,You can cast any wizard spell you know as a ritual if it has the ritual tag.,You can use a Arcane Focus as a spellcasting focus.
+Wizard
+
+Arcane Recovery
+
+You can recover half of your Wizard level(rounded up) of spell slots.
+Wizard
+
+Alert
+
+
+
+
+Athlete
+
+
+
+
+Actor
+
+
+
+
+Charger
+
+
+
+
+Crossbow Expert
+
+
+
+
+Defensive Duelist
+
+
+
+
+Dual Wielder
+
+
+
+
+Dungeon Delver
+
+
+
+
+Durable
+
+
+
+
+Elemental Adept
+
+
+
+
+Grappler
+
+
+
+
+Great Weapon Master
+
+
+
+
+Healer
+
+
+
+
+Heavily Armored
+
+
+
+
+Heavy Armor Master
+
+
+
+
+Inspiring Leader
+
+
+
+
+Keen Mind
+
+
+
+
+Lightly Armored
+
+
+
+
+Linguist
+
+
+
+
+Lucky
+
+
+
+
+Mage Slayer
+
+
+
+
+Magic Initiate
+
+
+
+
+Martial Adept
+
+
+
+
+Medium Armor Master
+
+
+
+
+Mobile
+
+
+
+
+Moderately Armored
+
+
+
+
+Mounted Combatant
+
+
+
+
+Observabt
+
+
+
+
+Polearm Master
+
+
+
+
+Resilient
+
+
+
+
+Ritual Caster
+
+
+
+
+Savage Attacker
+
+
+
+
+Sentinel
+
+
+
+
+Sharpshooter
+
+
+
+
+Shield Master
+
+
+
+
+Skilled
+
+
+
+
+Skulker
+
+
+
+
+Spell Sniper
+
+
+
+
+Tavern Brawler
+
+
+
+
+Tough
+
+
+
+
+War Caster
+
+
+
+
+Weapon Master
+
+
+
+

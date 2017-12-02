@@ -1,0 +1,656 @@
+Name
+Spell Level(Cantrip || 1st Level)
+Casting Time (String)
+Range
+Components(V = Verbal, S = Somatic, M = Material) (M-The material needed)
+Duration
+Class
+
+Acid Splash
+0
+1 Action
+60 feet
+V,S
+Instantaneous
+Sorcerer,Wizard
+
+Alarm
+0
+1 minute
+30 feet
+V,S,M-a tiny bell and a piece of fine silver wire
+8 hours
+Wizard
+
+Animal Friendship
+1
+1 Action
+30 feet
+V,S,M-a morsel of food
+24 hours
+Bard,Druid
+
+Armor of Agathys
+1
+1 Action
+Self
+V,S,M-a cup of water
+1 hour
+Warlock
+
+Arms of Hadar
+1
+1 Action
+Self(10-foot radius)
+V,S
+Instantaneous
+Warlock
+
+Bane
+1
+1 Action
+30 feet
+V,S,M-a drop of blood
+Concentration, up to 1 minute
+Bard,Cleric
+
+Blade Ward
+0
+1 Action
+Self
+V,S
+1 round
+Bard,Sorcerer,Warlock,Wizard
+
+Bless
+1
+1 Action
+30 feet
+V,S,M-a sprinkling of holy water
+Concentration, up to 1 minute
+Cleric
+
+Burning Hands
+1
+1 Action
+Self(15-foot cone)
+V,S
+Instantaneous
+Sorcerer,Wizard
+
+Charm Person
+1
+1 Action
+30 feet
+V,S
+1 hour
+Bard,Druid,Sorcerer,Warlock,Wizard
+
+Chill Touch
+0
+1 Action
+120 feet
+V,S
+1 round
+Sorcerer,Warlock,Wizard
+
+Chromatic Orb
+1
+1 Action
+90 feet
+V,S,M-a diamond worth at least 50 gp
+Instantaneous
+Sorcerer,Wizard
+
+Color Spray
+1
+1 Action
+Self(15-foot cone)
+V,S,M-a pinch of powder or sand that is colored red, yellow, and blue
+1 round
+Sorcerer,Wizard
+
+Command
+1
+1 Action
+60 feet
+V
+1 round
+Cleric
+
+Comprehend Languages
+1
+1 Action
+Self
+V,S,M-a pinch of soot and salt
+1 hour
+Bard,Sorcerer,Warlock,Wizard
+
+Create or Destroy Water
+1
+1 Action
+30 feet
+V,S,M-a drop of water if creating water or or a few grains of sand if destroying it
+Instantaneous
+Cleric,Druid
+
+Cure Wounds
+1
+1 Action
+Touch
+V,S
+Instantaneous
+Bard,Cleric,Druid
+
+Dancing Lights
+0
+1 Action
+120 feet
+V,S,M-a bit of phosphorus or wychwood, or a glowworm
+Concentration, up to 1 minute
+Bard,Sorcerer,Wizard
+
+Detect Evil and Good
+1
+1 Action
+Self
+V,S
+Concentration, up to 10 minutes
+Cleric
+
+Detect Magic
+1
+1 Action
+Self
+V,S
+Concentration, up to 10 minutes
+Bard,Cleric,Druid,Sorcerer,Wizard
+
+Detect Poison and Disease
+1
+1 Action
+Self
+V,S,M-a yew leaf
+Concentration, up to 10 minutes
+Cleric,Druid
+
+Disguise Self
+1
+1 Action
+Self
+V,S
+1 hour
+Bard,Sorcerer,Wizard
+
+Dissonant Whispers
+1
+1 Action
+60 feet
+V
+Instantaneous
+Bard
+
+Druidcraft
+0
+1 Action
+30 feet
+V,S
+Instantaneous
+Druid
+
+Eldritch Blast
+0
+1 Action
+120 feet
+V,S
+Instantaneous
+Warlock
+
+Entangle
+1
+1 Action
+90 feet
+V,S
+Concentration, up to 1 minute
+Druid
+
+Expeditious Retreat
+1
+1 Bonus Action
+Self
+V,S
+Concentration, up to 10 minutes
+Sorcerer,Warlock,Wizard
+
+Faerie Fire
+1
+1 Action
+60 feet
+V
+Concentration, up to 1 minute
+Bard,Druid
+
+False Life
+1
+1 Action
+Self
+V,S,M-a small amount of alcohol or distilled spirits
+1 hour
+Sorcerer,Wizard
+
+Feather Fall
+1
+1 Reaction, which you take when you or a creature within 60 feet of you falls 
+60 feet
+V,M-a small feather or piece of down
+1 minute
+Bard,Sorcerer,Wizard
+
+Find Familiar
+1
+1 hour
+10 feet
+V,S,M-10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier
+Instantaneous
+Wizard
+
+Fire Bolt
+0
+1 Action
+120 feet
+V,S
+Instantaneous
+Sorcerer,Wizard
+
+Fog Cloud
+1
+1 Action
+120 feet
+V,S
+Concentration, up to 1 hour
+Druid,Sorcerer,Wizard
+
+Friends
+0
+1 Action
+Self
+S,M-a small amount of makeup applied to the face as this spell is cast
+Concentration, up to 1 minute
+Bard,Sorcerer,Warlock,Wizard
+
+Goodberry
+1
+1 Action
+Touch
+V,S,M-a sprig of mistletoe
+Instantaneous
+Druid
+
+Grease
+1
+1 Action
+60 feet
+V,S,M-a bit of pork rind or butter
+1 minute
+Wizard
+
+Guidance
+0
+1 Action
+Touch
+V,S
+Concentration, up to 1 minute
+Cleric,Druid
+
+Guiding Bolt
+1
+1 Action
+120 feet
+V,S
+1 round
+Cleric
+
+Healing Word
+1
+1 Bonus Action
+60 feet
+V
+Instantaneous
+Bard,Cleric,Druid
+
+Hellish Rebuke
+1
+1 Reaction which you take in response to being damaged by a creature within 60 feet of you that you can see
+60 feet
+V,S
+Instantaneous
+Warlock
+
+Heroism
+1
+1 Action
+Touch
+V,S
+Concentration, up to 1 minute
+Bard
+
+Hex
+1
+1 Bonus Action
+90 feet
+V,S,M-the petrified eye of a newt
+Concentration, up to 1 hour
+Warlock
+
+Identify
+1
+1 minute
+Touch
+V,S,M-a pearl worth at least 100 gp and an owl feather
+Instantaneous
+Bard,Wizard
+
+Illusory Script
+1
+1 minute
+Touch
+S,M-a lead-based ink worth at least 10 gp, which the spell consumes
+Instantaneous
+Bard,Warlock,Wizard
+
+Inflict Wounds
+1
+1 Action
+Touch
+V,S
+Instantaneous
+Cleric
+
+Jump
+1
+1 Action
+Touch
+V,S,M-a grasshopper's hind leg
+1 minute
+Druid,Sorcerer,Wizard
+
+Light
+0
+1 Action
+Touch
+V,M-a firefly or phosphorescent moss
+1 hour
+Bard,Cleric,Sorcerer,Wizard
+
+Longstrider
+1
+1 Action
+Touch
+V,S,M-a pinch of dirt
+1 hour
+Bard,Druid,Wizard
+
+Mage Armor
+1
+1 Action
+Touch
+V,S,M-a piece of cured leather
+8 hour
+Sorcerer,Wizard
+
+Mage Hand
+0
+1 Action
+30 feet
+V,S
+1 minute
+Bard,Sorcerer,Warlock,Wizard
+
+Magic Missile
+1
+1 Action
+120 feet
+V,S
+Instantaneous
+Sorcerer,Wizard
+
+Mending
+0
+1 minute
+Touch
+V,S,M-two lodestones
+Instantaneous
+Bard,Cleric,Druid,Sorcerer,Wizard
+
+Message
+0
+1 action
+120 feet
+V,S,M-a short piece of copper wire
+1 round
+Bard,Cleric,Sorcerer,Wizard
+
+Minor Illusion
+0
+1 Action
+30 feet
+S,M-a bit of fleece
+1 minute
+Bard,Sorcerer,Warlock,Wizard
+
+Poison Spray
+0
+1 Action
+10 feet
+V,S
+Instantaneous
+Druid,Sorcerer,Warlock,Wizard
+
+Prestidigation
+0
+1 Action
+10 feet
+V,S
+Up to 1 hour
+Bard,Sorcerer,Warlock,Wizard
+
+Produce Flame
+0
+1 Action
+Self
+V,S
+10 minutes
+Druid
+
+Protection from Evil and Good
+1
+1 Action
+Touch
+V,S,M-holy water or powdered silver and iron, which the spell consumes
+Concentration, up to 10 minutes
+Cleric,Warlock,Wizard
+
+Purify Food and Drink
+1
+1 Action
+10 feet
+V,S
+Instantaneous
+Cleric,Druid
+
+Ray of Frost
+0
+1 Action
+60 feet
+V,S
+Instantaneous
+Sorcerer,Wizard
+
+Ray of Sickness
+1
+1 Action
+60 feet
+V,S
+Instantaneous
+Sorcerer,Wizard
+
+Resistance
+0
+1 Action
+Touch
+V,S,M-a miniature cloak
+Concentration, up to 1 minute
+Cleric,Druid
+
+Sacred Flame
+0
+1 Action
+60 feet
+V,S
+Instantaneous
+Cleric
+
+Sanctuary
+1
+1 Bonus Action
+30 feet
+V,S,M-a small silver mirror
+1 minute
+Cleric
+
+Shield
+1
+1 Reaction, which you take when you are hit by an attack or targeted by the magic missile spell 
+Self
+V,S
+1 round
+Sorcerer,Wizard
+
+Shield of Faith
+1
+1 Bonus Action
+60 feet
+V,S,M-a small parchment with a bit of holy text written on it
+Concentration, up to 10 minutes
+Cleric
+
+Shillelagh
+0
+1 Bonus Action
+Touch
+V,S,M-mistletoe, a shamrock leaf, and a club or quarterstaff
+1 minute
+Druid
+
+Shocking Grasp
+0
+1 Action
+Touch
+V,S
+Instantaneous
+Sorcerer,Wizard
+
+Silent Image
+1
+1 Action
+60 feet
+V,S,M-a bit of fleece
+Concentration, up to 10 minutes
+Bard,Sorcerer,Wizard
+
+Sleep
+1
+1 Action
+90 feet
+V,S,M-a bit of fleece
+Concentration, up to 10 minutes
+Bard,Sorcerer,Wizard
+
+Spare the Dying
+0
+1 Action
+Touch
+V,S,M-a pinch of fine sand, rose petals, or a cricket
+1 minute
+Cleric
+
+Speak with Animals
+1
+1 Action
+Self
+V,S
+Instantaneous
+Bard,Druid
+
+Tasha's Hideous Laughter
+1
+1 Action
+30 feet
+V,S,M-tiny tarts and a feather that is waved in the air
+Concentration, up to 1 minute
+Bard,Wizard
+
+Tenser's Floating Disk
+1
+1 Action
+30 feet
+V,S,M-a drop of mercury
+1 hour
+Wizard
+
+Thaumaturgy
+0
+1 Action
+30 feet
+V
+Up to 1 minute
+Cleric
+
+Thorn Whip
+0
+1 Action
+30 feet
+V,S,M-the stem of a plant with thorns
+Instantaneous
+Druid
+
+Thunderwave
+1
+1 Action
+Self(15-foot cube)
+V,S
+Instantaneous
+Bard,Druid,Sorcerer,Wizard
+
+True Strike
+0
+1 Action
+30 feet
+S
+Concentration, up to 1 round
+Bard,Sorcerer,Warlock,Wizard
+
+Unseen Servant
+1
+1 Action
+60 feet
+V,S,M-a piece of string and a bit of wood
+1 hour
+Bard,Warlock,Wizard
+
+Viscious Mockery
+1
+1 Action
+60 feet
+V
+Instantaneous
+Bard
+
+Witch Bolt
+1
+1 Action
+30 feet
+V,S,M-a twig from a tree that has been struck by lightning
+Concentration, up to 1 minute
+Sorcerer,Warlock,Wizard
+

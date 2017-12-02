@@ -1,0 +1,340 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Character Sheet</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+    p.label{
+      font-size: 12px;
+    }
+    .container-box{
+      border-style: solid;
+      border-width: 2px;
+      padding: 1%;
+    }
+    .header-holder {
+      display:flex;
+      flex-direction: row;
+      flex-wrap:nowrap;
+    }
+    .header{
+      flex-grow: 1;
+    }
+    .outer{
+      display: flex;
+      flex-direction: column;
+      padding:0;
+    }
+    .row{
+      display:flex;
+      flex-wrap:nowrap;
+    }
+    .table{
+      flex-grow: 1;
+    }
+    .body-container{
+      display:flex;
+      flex-direction:row;
+      flex-wrap: nowrap;
+
+    }
+    .sidebar-container{
+      display:flex;
+      flex-direction:column;
+      text-align: center;
+    }
+    .main-container{
+      flex-grow: 8;
+      text-align: center;
+    }
+    .ltr{
+      display:flex;
+      flex-direction: row;
+    }
+    .spell-subitem{
+      text-align: center;
+      flex-grow: 1;
+    }
+    .spell{
+      display:flex;
+      flex-direction: column;
+      text-align: center
+    }
+    .spell-table{
+      align-self: center;
+    }
+    table{
+      width: 100%;
+    }
+    tr:nth-child(even) {
+    background-color: #dddddd;
+    }
+    th{
+      font-size: 12px;
+    }
+    td{
+      font-size: 12px;
+    }
+    .abilities-container{
+      display: flex;
+      flex-direction: column;
+      flex-grow: 2;
+    }
+    .ability{
+      display: flex;
+      flex-direction: row;
+      vertical-align: middle;
+      justify-content: space-between;
+    }
+    .ability-val{
+      width:30%;
+    }
+    label{
+      display: flex;
+      flex-direction: row;
+      vertical-align: middle;
+      justify-content: space-between;
+    }
+    .ability-radio{
+      vertical-align: middle;
+    }
+    </style>
+</head>
+<body>
+  <!-- skills personality/bonds spells: name casting time range duration-->
+    <!-- <p th:text="'Person name: ' + ${test} + '!'" /> -->
+    <div class="header-holder">
+      <div class="container-box header">
+        <h1>{{name}}</h1>
+      </div>
+      <div class="container-box header outer">
+        <div class="row">
+          <div class="container-box table">
+            <!-- <p th:text="'Level ' + ${level} + ' ' + ${class}">Level 38 Basement-Dweller</p> -->
+            <p>Level {{level}} {{class}}</p>
+            <p class="label">Class and Level</p>
+          </div>
+          <div class="container-box table">
+            <p>{{background}}</p>
+            <p class="label">Background</p>
+          </div>
+          <div class="container-box table">
+            <p>{{player_name}}</p>
+            <p class="label">Player Name</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="container-box table">
+            <p>{{race}}</p>
+            <p class="label">Race</p>
+          </div>
+          <div class="container-box table">
+            <p>{{alignment}}</p>
+            <p class="label">Alignment</p>
+          </div>
+          <div class="container-box table">
+            <p>{{experience}}xp</p>
+            <p class="label">Experience Points</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="body-container">
+      <div class="sidebar-container">
+        <div class="container-box">
+          <p class="label">Strength</p>
+          <p>{{stats.str}}</p>
+        </div>
+        <div class="container-box">
+          <p class="label">Dexterity</p>
+          <p>{{stats.dex}}</p>
+        </div>
+        <div class="container-box">
+          <p class="label">Constitution</p>
+          <p>{{stats.con}}</p>
+        </div>
+        <div class="container-box">
+          <p class="label">Intelligence</p>
+          <p>{{stats.int}}</p>
+        </div>
+        <div class="container-box">
+          <p class="label">Wisdom</p>
+          <p>{{stats.wis}}</p>
+        </div>
+        <div class="container-box">
+          <p class="label">Charisma</p>
+          <p>{{stats.cha}}</p>
+        </div>
+      </div>
+      <div class="abilities-container">
+        <div class="ability container-box">
+          <input class="ability-radio" type="checkbox" name="Acrobatics" value="level">
+          <p class="ability-val">5</p>
+          <p class="ability-val label">Acrobatics</p>
+        </div>
+        <div class="ability container-box">
+          <input class="ability-radio" type="checkbox" name="Animal Handling" value="level">
+          <p class="ability-val">5</p>
+          <p class="ability-val label">Animal Handling</p>
+        </div>
+        <div class="ability container-box">
+          <input class="ability-radio" type="checkbox" name="Arcana" value="level">
+          <p class="ability-val">5</p>
+          <p class="ability-val label">Arcana</p>
+        </div>
+        <div class="ability container-box">
+          <input class="ability-radio" type="checkbox" name="Athletics" value="level">
+          <p class="ability-val">5</p>
+          <p class="ability-val label">Athletics</p>
+        </div>
+        <div class="ability container-box">
+          <input class="ability-radio" type="checkbox" name="Deception" value="level">
+          <p class="ability-val">5</p>
+          <p class="ability-val label">Deception</p>
+        </div>
+        <div class="ability container-box">
+          <input class="ability-radio" type="checkbox" name="History" value="level">
+          <p class="ability-val">5</p>
+          <p class="ability-val label">History</p>
+        </div>
+        <div class="ability container-box">
+          <input class="ability-radio" type="checkbox" name="Insight" value="level">
+          <p class="ability-val">5</p>
+          <p class="ability-val label">Insight</p>
+        </div>
+        <div class="ability container-box">
+          <input class="ability-radio" type="checkbox" name="Intimidation" value="level">
+          <p class="ability-val">5</p>
+          <p class="ability-val label">Intimidation</p>
+        </div>
+        <div class="ability container-box">
+          <input class="ability-radio" type="checkbox" name="Investigation" value="level">
+          <p class="ability-val">5</p>
+          <p class="ability-val label">Investigation</p>
+        </div>
+        <div class="ability container-box">
+          <input class="ability-radio" type="checkbox" name="Medicine" value="level">
+          <p class="ability-val">5</p>
+          <p class="ability-val label">Medicine</p>
+        </div>
+        <div class="ability container-box">
+          <input class="ability-radio" type="checkbox" name="Nature" value="level">
+          <p class="ability-val">5</p>
+          <p class="ability-val label">Nature</p>
+        </div>
+        <div class="ability container-box">
+          <input class="ability-radio" type="checkbox" name="Perception" value="level">
+          <p class="ability-val">5</p>
+          <p class="ability-val label">Perception</p>
+        </div>
+        <div class="ability container-box">
+          <input class="ability-radio" type="checkbox" name="Performance" value="level">
+          <p class="ability-val">5</p>
+          <p class="ability-val label">Performance</p>
+        </div>
+        <div class="ability container-box">
+          <input class="ability-radio" type="checkbox" name="Persuasion" value="level">
+          <p class="ability-val">5</p>
+          <p class="ability-val label">Persuasion</p>
+        </div>
+        <div class="ability container-box">
+          <input class="ability-radio" type="checkbox" name="Religion" value="level">
+          <p class="ability-val">5</p>
+          <p class="ability-val label">Religion</p>
+        </div>
+        <div class="ability container-box">
+          <input class="ability-radio" type="checkbox" name="Sleight of Hand" value="level">
+          <p class="ability-val">5</p>
+          <p class="ability-val label">Sleight of Hand</p>
+        </div>
+        <div class="ability container-box">
+          <input class="ability-radio" type="checkbox" name="Stealth" value="level">
+          <p class="ability-val">5</p>
+          <p class="ability-val label">Stealth</p>
+        </div>
+        <div class="ability container-box">
+          <input class="ability-radio" type="checkbox" name="Survival" value="level">
+          <p class="ability-val">5</p>
+          <p class="ability-val label">Survival</p>
+        </div>
+      </div>
+      <div class="main-container">
+        <div class="ltr">
+          <div class="container-box table">
+            <h4 class="label">Armor Class</h4>
+            <p class="label">{{AC}}</p>
+          </div>
+          <div class="container-box table">
+            <h4 class="label">Initiative</h4>
+            <p class="label"> {{initiative}} </p>
+          </div>
+          <div class="container-box table">
+            <h4 class="label">Speed</h4>
+            <p class="label">{{speed}}</p>
+          </div>
+        </div>
+        <div class="container-box">
+          <h4 class="label">Hit points: </h4>
+          <p class="label"> {{hitpoints}} </p>
+        </div>
+        <div class="container-box">
+          <h4 class="label">Items: </h4>
+          {{#each items}}
+            <p class="label"> {{this.name}} </p>
+          {{/each}}
+        </div>
+        <div class="container-box spell">
+          <h4 class="label">Spells</h4>
+          <table class="spell-table">
+            <tr>
+              <th>Name</th>
+              <!-- <th>Casting Time</th> -->
+              <th>Duration</th>
+              <th>Range</th>
+            </tr>
+            {{#each spells}}
+                <tr>
+                  <td>{{this.name}}</td>
+                  <!-- <td>example</td> -->
+                  <td>{{this.duration}}</td>
+                  <td>{{this.range}}</td>
+                </tr>
+            {{/each}}
+          </table>
+          <!-- <div class="container-box spell-subitem ltr">
+            <p class="label">Name</p>
+          </div>
+          <div class="container-box spell-subitem ltr">
+            <p class="label">Casting time</p>
+          </div>
+          <div class="container-box spell-subitem ltr">
+            <p class="label">Duration</p>
+          </div>
+          <div class="container-box spell-subitem ltr">
+            <p class="label">Range</p>
+          </div> -->
+        </div>
+        <div class="container-box">
+          <h4 class="label">Feats</h4>
+          {{#each feats}}
+            <p class="label">{{this.name}}</p>
+          {{/each}}
+        </div>
+        <!-- <div class="container-box">
+          <p class="label">Personality Traits</p>
+        </div> -->
+        <!-- <div class="container-box">
+          <p class="label">Ideals</p>
+        </div> -->
+        <!-- <div class="container-box">
+          <p class="label">Bonds</p>
+        </div> -->
+        <!-- <div class="container-box">
+          <p class="label">Flaws</p>
+        </div> -->
+      </div>
+    </div>
+
+</body>
+</html>
