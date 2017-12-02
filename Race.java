@@ -14,19 +14,20 @@ public class Race {
 	final private String[] languages;
 	final private Race[] subRace;
 	final private Feat[] feats;
+	
 	/**
 	 * Race() 7-arg constructor
-   * @param n: name of the race
+	 * @param n: name of the race
 	 * @param s: strength modifier
 	 * @param d: dexterity modifier
 	 * @param c: constituion modifier
 	 * @param i: intelligence modifier
 	 * @param w: wisdom modifier
 	 * @param ch: charisma modifier
-   * @param f: array of Feat objects
+	 * @param f: array of Feat objects
 	 * @param sr: subraces of this race
-   * @param spe: natural speed of this race
-   * @param l: languages the race naturally speaks
+	 * @param spe: natural speed of this race
+	 * @param l: languages the race naturally speaks
 	 */
 	public Race(String n, int s, int d, int c, int i, int w, int ch, Feat[] f, Race[] sr, int spe, String[] l) {
 		name = n;
@@ -50,7 +51,7 @@ public class Race {
 	}
 
 	/**
-	 * getStrMod
+	 * Strength Modifier
 	 * @return strMod: strength modifier
 	 */
 	public int getStrMod() {
@@ -58,7 +59,7 @@ public class Race {
 	}
 
 	/**
-	 * getDexMod
+	 * Dexterity Modifier
 	 * @return dexMod: dexterity modifier
 	 */
 	public int getDexMod() {
@@ -66,7 +67,7 @@ public class Race {
 	}
 
 	/**
-	 * getConMod
+	 * Constitution Modifier
 	 * @return conMod: constituion modifier
 	 */
 	public int getConMod() {
@@ -74,7 +75,7 @@ public class Race {
 	}
 
 	/**
-	 * getIntMod
+	 * Intelligence Modifier
 	 * @return intMod: intelligence modifier
 	 */
 	public int getIntMod() {
@@ -82,7 +83,7 @@ public class Race {
 	}
 
 	/**
-	 * getWisMod
+	 * Wisdom Modifier
 	 * @return wisMod: wisdom modifier
 	 */
 	public int getWisMod() {
@@ -90,7 +91,7 @@ public class Race {
 	}
 
 	/**
-	 * getChaMod
+	 * Charisma Modifier
 	 * @return chaMod: charisma modifier
 	 */
 	public int getChaMod() {
@@ -98,7 +99,7 @@ public class Race {
 	}
 
 	/**
-	 * getFeat
+	 * All abilities of the Race
 	 * @return feats: array of Feat objects
 	 */
 	public Feat[] getFeat() {
@@ -106,21 +107,35 @@ public class Race {
 	}
 
 	/**
-	 * getFeat
+	 * Certain ability of the Race
 	 * @param index: index of feat that you want
-	 * @return feats[index]
+	 * @return feats[index]: The feat at a certain index
 	 */
 	public Feat getFeat(int index) {
 		return feats[index];
 	}
-	 public int getSpeed() {
-		 return speed;
-	 }
-	 
-	 public Race[] getSubRace() {
-		 return subRace;
-	 }
-	 public String[] getLanguage() {
-		 return languages;
-	 }
+	
+	/**
+	 * Race's Walking Speed
+	 * @return speed: The Race's walking speed
+	 */
+	public int getSpeed() {
+		return speed;
+	}
+	
+	/**
+	 * Return Race's Subraces
+	 * @return subRace: The Race's Subraces
+	 */
+	public Race[] getSubRace() {
+		return subRace;
+	}
+	
+	/**
+	 * Return Race's Languages
+	 * @return languages: Race's languages
+	 */
+	public String[] getLanguage() {
+		return languages;
+	}
 }

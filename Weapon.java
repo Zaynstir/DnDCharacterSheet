@@ -1,7 +1,9 @@
 /**
- * Weapon.java
- * Used for defining Weapon type Item objects to be used by D&D characters
+ * Used to store the different Weapons.
+ * @author Zayin Brunson, Weston Chan, Matt Link, Gabriel Maddex
+ * @version CIS200Final
  */
+
 public class Weapon extends Item{
 	final private char attackType;
 	final private String[] weaponType;
@@ -19,15 +21,29 @@ public class Weapon extends Item{
 		attackType = at;
 		damage = d;
 	}
+	
+	/**
+	 * How it attacks
+	 * @return Char associated to with how the weapon attacks
+	 */
 	public char getAttackType() {
 		return attackType;
 	}
 	
+	/**
+	 * What type of weapon it is
+	 * @return Every type associated with the weapon
+	 */
 	public String[] getWeaponType() {
 		return weaponType;
 	}
 	
-	public String getWeaponType(int index) {
+	/**
+	 * What type of weapon it is
+	 * @param index: To find a specific weapon
+	 * @return Every type associated with the weapon
+	 */ 
+	String getWeaponType(int index) {
 		return weaponType[index];
 	}
 

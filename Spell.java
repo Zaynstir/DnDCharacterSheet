@@ -1,7 +1,9 @@
 /**
- * Spell.java
- * Used to define Spell objects that can be used by the character
+ * Used to store the spells.
+ * @author Zayin Brunson, Weston Chan, Matt Link, Gabriel Maddex
+ * @version CIS200Final
  */
+
 public class Spell {
 	final private String name;
 	final private int lvl;

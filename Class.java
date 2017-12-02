@@ -1,7 +1,9 @@
 /**
- * Class.java
- * Used for defining the Class of a D&D character
+ * Used to store the different Classes
+ * @author Zayin Brunson, Weston Chan, Matt Link, Gabriel Maddex
+ * @version CIS200Final
  */
+
 import java.util.ArrayList;
 
 public class Class{
@@ -16,7 +18,7 @@ public class Class{
 
 	/**
 	 * Class() 8-arg constructor
-   * @param n: name of the class
+	 * @param n: name of the class
 	 * @param h: starting health at level 1
 	 * @param f: array of Feat objects
 	 * @param l: character class level
@@ -44,28 +46,40 @@ public class Class{
 		return name;
 	}
 	
+	/**
+	 * Health provided by Class
+	 * @return User's health provided my class
+	 */
 	public int getHealth() {
 		return health;
 	}
 	
+	/**
+	 * Class's Proficiencies
+	 * @return Class's provided proficiencies
+	 */
 	public String[] getProf() {
 		return prof;
 	}
 	
+	/**
+	 * Class's Saving Throws
+	 * @return Class's provided saving throws
+	 */
 	public String[] getSV() {
 		return SV;
 	}
 	
 	/**
-	 * getFeat
-	 * @return feats: array of Feat objects
+	 * a class's provided abilities
+	 * @return feats: array of abilties
 	 */
 	public Feat[] getFeat() {
 		return feats;
 	}
 
 	/**
-	 * getFeat
+	 * get a Class's provided ability
 	 * @param index: index of feat to be returned
 	 * @return Feat object at provided index
 	 */
@@ -73,15 +87,12 @@ public class Class{
 		return feats[index];
 	}
 	
+	/**
+	 * Class's skill proficiencies
+	 * @return Class's provided skill proficiencies
+	 */
 	public String getSkillProf() {
 		return skillProf;
-	}
-
-	/**
-	 * setLevel - this method sets the level variable
-	 */
-	public void setLevel(int l){
-		lvl = l;
 	}
 	
 	

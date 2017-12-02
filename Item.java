@@ -1,7 +1,9 @@
 /**
- * Item.java
- * Used for defining an Item object to be used by characters in a game of DND
+ * Used to store the different items in the game.
+ * @author Zayin Brunson, Weston Chan, Matt Link, Gabriel Maddex
+ * @version CIS200Final
  */
+
 public class Item {
 	final private String name;
 	final private String desc;
