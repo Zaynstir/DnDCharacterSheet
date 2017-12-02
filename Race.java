@@ -1,7 +1,9 @@
 /**
- * Race.java
- * Used for defining the attributes that a characters Race adds to their stats
+ * Used to store the different Races
+ * @author Zayin Brunson, Weston Chan, Matt Link, Gabriel Maddex
+ * @version CIS200Final
  */
+
 public class Race {
 	final private String name;
 	final private int strMod;
