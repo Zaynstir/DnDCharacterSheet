@@ -1,3 +1,8 @@
+/**
+ * Imports objects such as classes and feats and more from a text file based off of the Player's Handbook
+ * @author Zayin Brunson, Weston Chan, Matthew Link, Gabriel Maddex
+ * @version CIS 200 Final
+ */
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
@@ -11,25 +16,13 @@ public class SACSRunner {
 	static ArrayList<Item> itemRay = new ArrayList<Item>();
 	static ArrayList<Background> backgroundRay = new ArrayList<Background>();
 	static CharacterSheet cs;
-	static Dice dice = new Dice();
+	static Dice dice = new Dice();	
 	
-	private String name;
-	private Race race;
-	private Background background;
-	private Class[] classes;
-	private Spell[] spells;
-	private Feat[] feats;
-	private ArrayList<Item> items;
-	private int exp;
-	private int lvl;
-	private int str;
-	private int dex;
-	private int con;
-	private int intelligence;
-	private int wis;
-	private int cha;
-	
-	
+	/**
+	 * Imports objects from specially formatted text files and puts them into ArrayLists
+	 * @param args Argument from the command line - not used
+	 * @throws FileNotFoundException Needed to compile
+	 */
 	public static void main(String[] args) throws FileNotFoundException {
 		
 		Scanner raceFile = new Scanner(new FileReader("Race.txt"));
@@ -195,6 +188,11 @@ public class SACSRunner {
 		}
 	}
 	
+	/**
+	 * Finds a feat in the Feats ArrayList and returns it
+	 * @param name The name of the feat
+	 * @return A feat in the Feats ArrayList and returns it
+	 */
 	static public Feat findFeat(String name) {
 		for(Feat i : featRay) {
 			if (i.getName().equals(name))
@@ -203,6 +201,11 @@ public class SACSRunner {
 		return null;
 	}
 	
+	/**
+	 * Finds a race in the Race ArrayList and returns it
+	 * @param name The name of the race
+	 * @return A race in the Race ArrayList and returns it
+	 */
 	static public Race findRace(String name) {
 		for(Race i : raceRay) {
 			if (i.getName().equals(name))
@@ -211,6 +214,11 @@ public class SACSRunner {
 		return null;
 	}
 	
+	/**
+	 * Finds an item in the Items ArrayList and returns it
+	 * @param name The name of the Item
+	 * @return An item in the Items ArrayList and returns it
+	 */
 	static public Item findItem(String name) {
 		for(Item i : itemRay) {
 			if (i.getName().equals(name))
@@ -219,6 +227,11 @@ public class SACSRunner {
 		return null;
 	}
 	
+	/**
+	 * Finds a class in the Class ArrayList and returns it
+	 * @param name The name of the class
+	 * @return A class in the Class ArrayList and returns it
+	 */
 	static public Class findClass(String name) {
 		for(Class i : classRay) {
 			if (i.getName().equals(name))
@@ -227,6 +240,11 @@ public class SACSRunner {
 		return null;
 	}
 	
+	/**
+	 * Finds a background in the Backgrounds ArrayList and returns it
+	 * @param name The name of the background
+	 * @return A background in the Backgrounds ArrayList and returns it
+	 */
 	static public Background findBackground(String name) {
 		for(Background i : backgroundRay) {
 			if (i.getName().equals(name))
@@ -235,144 +253,16 @@ public class SACSRunner {
 		return null;
 	}
 	
+	/**
+	 * Finds a spell in the Spells ArrayList and returns it
+	 * @param name The name of the spell
+	 * @return A spell in the Spells ArrayList and returns it
+	 */
 	static public Spell findSpell(String name) {
 		for(Spell i : spellRay) {
 			if (i.getName().equals(name))
 				return i;
 		}
 		return null;
-	}
-	
-	public static Dice getDice() {
-		return dice;
-	}
-
-	public static void setDice(Dice dice) {
-		SACSRunner.dice = dice;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public Race getRace() {
-		return race;
-	}
-
-	public void setRace(Race race) {
-		this.race = race;
-	}
-
-	public Background getBackground() {
-		return background;
-	}
-
-	public void setBackground(Background background) {
-		this.background = background;
-	}
-
-	public Class[] getClasses() {
-		return classes;
-	}
-
-	public void setClasses(Class[] classes) {
-		this.classes = classes;
-	}
-
-	public Spell[] getSpells() {
-		return spells;
-	}
-
-	public void setSpells(Spell[] spells) {
-		this.spells = spells;
-	}
-
-	public Feat[] getFeats() {
-		return feats;
-	}
-
-	public void setFeats(Feat[] feats) {
-		this.feats = feats;
-	}
-
-	public ArrayList<Item> getItems() {
-		return items;
-	}
-
-	public void setItems(ArrayList<Item> items) {
-		this.items = items;
-	}
-
-	public int getExp() {
-		return exp;
-	}
-
-	public void setExp(int exp) {
-		this.exp = exp;
-	}
-
-	public int getLvl() {
-		return lvl;
-	}
-
-	public void setLvl(int lvl) {
-		this.lvl = lvl;
-	}
-
-	public int getStr() {
-		return str;
-	}
-
-	public void setStr(int str) {
-		this.str = str;
-	}
-
-	public int getDex() {
-		return dex;
-	}
-
-	public void setDex(int dex) {
-		this.dex = dex;
-	}
-
-	public int getCon() {
-		return con;
-	}
-
-	public void setCon(int con) {
-		this.con = con;
-	}
-
-	public int getIntelligence() {
-		return intelligence;
-	}
-
-	public void setIntelligence(int intelligence) {
-		this.intelligence = intelligence;
-	}
-
-	public int getWis() {
-		return wis;
-	}
-
-	public void setWis(int wis) {
-		this.wis = wis;
-	}
-
-	public int getCha() {
-		return cha;
-	}
-
-	public void setCha(int cha) {
-		this.cha = cha;
-	}
-	
-	public void setCS() {
-
-		cs = new CharacterSheet(name, race, classes, spells, feats, items, exp, lvl, str, dex, con, intelligence, wis, cha, 10);
 	}
 }
