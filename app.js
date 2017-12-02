@@ -17,9 +17,8 @@ app.set('views', path.join(__dirname + '/public/'));
 
 var java = require('java');
 
-// Location of compiled java files
+// Location of compiled java class files
 java.classpath.push('./java/');
-java.classpath.push('.');
 
 var SACSRunner = java.import('SACSRunner');
 var CharacterSheet = java.import('CharacterSheet')
@@ -45,6 +44,7 @@ var feat_array = java.newArray('Feat', [feat]);
 var item_arraylist = java.newInstanceSync('java.util.ArrayList');
 item_arraylist.addSync(SACSRunner.findItemSync('Arrows'));
 
+
 var cs = new CharacterSheet('Tim', race_Human, class_array, spell_array, feat_array, item_arraylist);
 
 console.log("RACE: " + cs.getRaceSync().getNameSync());
@@ -53,12 +53,23 @@ console.log("RACE: " + cs.getRaceSync().getNameSync());
 
 app.get('/', function(req, res){
     res.render('index',{
-        data: w.getWeaponTypeSync()
+        data: cs
     });
 });
 
 app.get('/export', function(req, res){
-    res.render('export-page',{});
+    res.render('export-page',{
+        name: cs.getNameSync(),
+        level: cs.getLvlSync(),
+        class: cs.getClassesSync()[0].getNameSync(),
+        // background: cs.getBackgroundSync()
+        background: "placeholder background",
+        player_name: "Matt Link"
+    });
+});
+
+app.get('/import', function(req, res){
+    res.render('import-page', {});
 });
 
 app.listen(3000, function(){

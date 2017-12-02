@@ -105,21 +105,21 @@
     <!-- <p th:text="'Person name: ' + ${test} + '!'" /> -->
     <div class="header-holder">
       <div class="container-box header">
-        <h1>Jeff</h1>
+        <h1>{{name}}</h1>
       </div>
       <div class="container-box header outer">
         <div class="row">
           <div class="container-box table">
             <!-- <p th:text="'Level ' + ${level} + ' ' + ${class}">Level 38 Basement-Dweller</p> -->
-            <p>Level 38 Basement-Dweller</p>
+            <p>Level {{level}} {{class}}</p>
             <p class="label">Class and Level</p>
           </div>
           <div class="container-box table">
-            <p>No job, no gf</p>
+            <p>{{background}}</p>
             <p class="label">Background</p>
           </div>
           <div class="container-box table">
-            <p>Geoff</p>
+            <p>{{player_name}}</p>
             <p class="label">Player Name</p>
           </div>
         </div>
