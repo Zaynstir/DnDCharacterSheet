@@ -1,26 +1,26 @@
 Hill Dwarf
 0
 0
-0
+2
 0
 1
 0
-0
-Dwarvish
-Dwarven Toughness
- 
- 
+25
+Dwarvish,Common
+Dwarven Toughness,Darkvision,Dwarven Resilience,Dwarven Combat Training,Tool Proficiency,Stonecunning
+
+
 Mountain Dwarf
+2
+0
 2
 0
 0
 0
-0
-0
-0
-Dwarvish
-Dwarven Armor Training
- 
+25
+Dwarvish,Common
+Dwarven Armor Training,Darkvision,Dwarven Resilience,Dwarven Combat Training,Tool Proficiency,Stonecunning
+
 
 Dwarf
 0
@@ -33,43 +33,43 @@ Dwarf
 Dwarvish, Common
 Darkvision,Dwarven Resilience,Dwarven Combat Training,Tool Proficiency,Stonecunning
 Hill Dwarf,Mountain Dwarf
- 
+
 High Elf
 0
-0
+2
 0
 1
 0
 0
-0
+30
 Elvish
-Elf Weapon Training,Cantrip,Languages
- 
- 
+Elf Weapon Training,Cantrip,Languages,Darkvision,Keen Senses,Fey Ancestry,Trance,Languages
+
+
 Wood Elf
 0
-0
+2
 0
 0
 1
 0
-5
+35
 Elvish
-Elf Weapon Training,Mask of the Wild
- 
- 
+Elf Weapon Training,Mask of the Wild,Darkvision,Keen Senses,Fey Ancestry,Trance,Languages
+
+
 Dark Elf (Drow)
 0
-0
+2
 0
 0
 0
 1
-0
+30
 Elvish
-Superior Darkvision,Sunligh Sensitivity,Drow Magic,Drow Weapon Training
- 
- 
+Superior Darkvision,Sunligh Sensitivity,Drow Magic,Drow Weapon Training,Darkvision,Keen Senses,Fey Ancestry,Trance,Languages
+
+
 Elf
 0
 2
@@ -81,29 +81,29 @@ Elf
 Elvish
 Darkvision,Keen Senses,Fey Ancestry,Trance,Languages
 High Elf,Wood Elf,Dark Elf (Drow)
- 
-Lightfoot
+
+Lightfoot Halfling
 0
-0
+2
 0
 0
 0
 1
-0
+25
 Halfling,Common
-Natualy Stealthy
+Natualy Stealthy,Lucky,Brave,Halfling Nimbleness,Languages
 
 
-Stout
+Stout Halfling
 0
-0
+2
 1
 0
 0
 0
-0
+25
 Halfling,Common
-Stout Resilience
+Stout Resilience,Lucky,Brave,Halfling Nimbleness,Languages
 
 
 Halfling
@@ -146,24 +146,24 @@ Forest Gnome
 0
 1
 0
+2
 0
 0
-0
-0
+25
 Gnomish,Common
-Natrual Illusionist,Speak with Small Beasts
+Natrual Illusionist,Speak with Small Beasts,Darkvision,Gnome Cunning
 
 
 Rock Gnome
 0
 0
 1
+2
 0
 0
-0
-0
+25
 Gnomish,Common
-Artificier's Lore,Tinker
+Artificier's Lore,Tinker,Darkvision,Gnome Cunning
 
 
 Gnome

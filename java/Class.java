@@ -1,7 +1,9 @@
 /**
- * Class.java
- * Used for defining the Class of a D&D character
+ * Used to store the different Classes
+ * @author Zayin Brunson, Weston Chan, Matt Link, Gabriel Maddex
+ * @version CIS200Final
  */
+
 import java.util.ArrayList;
 
 public class Class{
@@ -16,16 +18,12 @@ public class Class{
 
 	/**
 	 * Class() 8-arg constructor
-   * @param n: name of the class
-	 * @param s: strength modifier
-	 * @param d: dexterity modifier
-	 * @param c: constituion modifier
-	 * @param i: intelligence modifier
-	 * @param w: wisdom modifier
-	 * @param ch: charisma modifier
+	 * @param n: name of the class
+	 * @param h: starting health at level 1
 	 * @param f: array of Feat objects
 	 * @param l: character class level
 	 * @param p: proficiencies
+	 * @param sv: saving throws
 	 * @param e: equipment
 	 * @param sp: skill proficiencies
 	 */
@@ -48,65 +46,40 @@ public class Class{
 		return name;
 	}
 
-
-	// /**
-	//  * getStrMod
-	//  * @return strMod: strength modifier
-	//  */
-	// public int getStrMod() {
-	// 	return strMod;
-	// }
-    //
-	// /**
-	//  * getDexMod
-	//  * @return dexMod: dexterity modifier
-	//  */
-	// public int getDexMod() {
-	// 	return dexMod;
-	// }
-    //
-	// /**
-	//  * getConMod
-	//  * @return conMod: constituion modifier
-	//  */
-	// public int getConMod() {
-	// 	return conMod;
-	// }
-    //
-	// /**
-	//  * getIntMod
-	//  * @return intMod: intelligence modifier
-	//  */
-	// public int getIntMod() {
-	// 	return intMod;
-	// }
-    //
-	// /**
-	//  * getWisMod
-	//  * @return wisMod: wisdom modifier
-	//  */
-	// public int getWisMod() {
-	// 	return wisMod;
-	// }
-    //
-	// /**
-	//  * getChaMod
-	//  * @return chaMod: charisma modifier
-	//  */
-	// public int getChaMod() {
-	// 	return chaMod;
-	// }
+	/**
+	 * Health provided by Class
+	 * @return User's health provided my class
+	 */
+	public int getHealth() {
+		return health;
+	}
 
 	/**
-	 * getFeat
-	 * @return feats: array of Feat objects
+	 * Class's Proficiencies
+	 * @return Class's provided proficiencies
+	 */
+	public String[] getProf() {
+		return prof;
+	}
+
+	/**
+	 * Class's Saving Throws
+	 * @return Class's provided saving throws
+	 */
+	public String[] getSV() {
+		return SV;
+	}
+
+	/**
+	 * a class's provided abilities
+	 * @return feats: array of abilties
 	 */
 	public Feat[] getFeat() {
 		return feats;
 	}
 
 	/**
-	 * getFeat
+	 * get a Class's provided ability
 	 * @param index: index of feat to be returned
 	 * @return Feat object at provided index
 	 */
@@ -115,13 +88,12 @@ public class Class{
 	}
 
 	/**
-	 * setLevel - this method sets the level variable
+	 * Class's skill proficiencies
+	 * @return Class's provided skill proficiencies
 	 */
-	public void setLevel(int l){
-		lvl = l;
+	public String getSkillProf() {
+		return skillProf;
 	}
 
-	public int getHealth() {
-		return health;
-	}
+
 }
