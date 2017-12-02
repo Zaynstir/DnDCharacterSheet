@@ -15,7 +15,6 @@ public class SACSRunner {
 	static ArrayList<Feat> featRay = new ArrayList<Feat>();
 	static ArrayList<Item> itemRay = new ArrayList<Item>();
 	static ArrayList<Background> backgroundRay = new ArrayList<Background>();
-	static CharacterSheet cs;
 	static Dice dice = new Dice();	
 	
 	/**
