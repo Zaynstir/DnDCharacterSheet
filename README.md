@@ -15,5 +15,5 @@ as well as npm installed on your system.
     `npm install java`
 
     Compile java in "/java" folder with `javac *.java`
-3. run `node app.js`
+3. run `node app.js` from the top level of the repo
 4. open http://localhost:3000/import in your browser to create a character sheet
