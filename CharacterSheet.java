@@ -1,3 +1,8 @@
+/**
+ * Represents a Character sheet by having the fields required to make a character sheet
+ * @author Zayin Brunson, Weston Chan, Matthew Link, Gabriel Maddex
+ * @version CIS 200 Final
+ */
 import java.util.ArrayList;
 
 public class CharacterSheet {
@@ -19,6 +24,24 @@ public class CharacterSheet {
 	private int wis;
 	private int cha;
 
+	/**
+	 * Constructs a new Character Sheet
+	 * @param n Name of the character
+	 * @param r The race of the character
+	 * @param c The class of the character
+	 * @param s The spells that the character can use
+	 * @param f The feats that the character can use
+	 * @param i The items that the character have
+	 * @param exp The amount of experience the character has
+	 * @param l The current level of the character
+	 * @param str The Strength modifier of the character
+	 * @param dex The Dexterity modifier of the character
+	 * @param con The Constitution modifier of the character
+	 * @param inte The Intelligence modifier of the character
+	 * @param wis The Wisdom modifier of the character
+	 * @param cha The Charisma modifier of the character
+	 * @param max The maximum health the character has
+	 */
 	public CharacterSheet(String n, Race r, Class[] c, Spell[] s, Feat[] f, ArrayList<Item> i, int exp, int l, int str, int dex, int con, int inte, int wis, int cha, int max) {
 		name = n;
 		race = r;
@@ -37,6 +60,15 @@ public class CharacterSheet {
 		maxHealth = classes[0].getHealth();
 	}
 
+	/**
+	 * Constructs a character sheet but rolls for ability modifiers for the user
+	 * @param n Name of the character
+	 * @param r Race of the character
+	 * @param c Class of the character
+	 * @param s Spells that the character can use
+	 * @param f Feats that the character has
+	 * @param i Items that the character has
+	 */
 	public CharacterSheet(String n, Race r, Class[] c, Spell[] s, Feat[] f, ArrayList<Item> i) {
 		name = n;
 		race = r;
@@ -56,67 +88,130 @@ public class CharacterSheet {
 		maxHealth = classes[0].getHealth() + con;
 	}
 
+	/**
+	 * Returns the name of the character
+	 * @return The name of the character
+	 */
 	public String getName() {
 		return name;
 	}
 
+	/**
+	 * Sets the name of the character
+	 * @param n The name of the character
+	 */
 	public void setName(String n) {
 		name = n;
 	}
 
+	/**
+	 * Returns the race of the character
+	 * @return The race of the character
+	 */
 	public Race getRace() {
 		return race;
 	}
 
+	/**
+	 * Sets the race of the character
+	 * @param r The race of the character
+	 */
 	public void setRace(Race r) {
 		race = r;
 	}
 
+	/**
+	 * Returns the background of the character
+	 * @return The background of the character
+	 */
 	public Background getBackground() {
 		return background;
 	}
 
+	/**
+	 * Sets the background of the character
+	 * @param b The background of the character
+	 */
 	public void setBackground(Background b) {
 		background = b;
 	}
 
+	/**
+	 * Returns the class of the character
+	 * @return The class of the character
+	 */
 	public Class[] getClasses() {
 		return classes;
 	}
 
+	/**
+	 * Sets the class of the character
+	 * @param c The class of the character
+	 */
 	public void setClasses(Class[] c) {
 		classes = c;
 	}
 	
+	/**
+	 * Returns the spells the character can cast
+	 * @return The spells the character can cast
+	 */
 	public Spell[] getSpells() {
 		return spells;
 	}
 	
+	/**
+	 * Returns the spells the character can cast
+	 * @param s The spells the character can cast
+	 */
 	public void setSpells(Spell[] s) {
 		spells = s;
 	}
 
+	/**
+	 * Returns the feats the character has
+	 * @return The feats the character has
+	 */
 	public Feat[] getFeats() {
 		return feats;
 	}
 
+	/**
+	 * Sets the feats the character has
+	 * @param f The feats the character has
+	 */
 	public void setFeats(Feat[] f) {
 		feats = f;
 	}
 
+	/**
+	 * Returns the items the character has
+	 * @return The items the character has
+	 */
 	public ArrayList<Item> getItems(){
 		return items;
 	}
 
-	
+	/**
+	 * Sets the items the character has
+	 * @param i The items the character has
+	 */
 	public void setItems(ArrayList<Item> i) {
 		items = i;
 	}
 
+	/**
+	 * Adds an additional item the character has
+	 * @param i the new item the character has
+	 */
 	public void addItem(Item i) {
 		items.add(i);
 	}
 
+	/**
+	 * Removes an item the character has
+	 * @param i An item the character has
+	 */
 	public void removeItem(Item i) {
 		for(int k = 0; k < items.size(); k++) {
 			if(items.get(k).getName() == i.getName()) {
@@ -125,67 +220,131 @@ public class CharacterSheet {
 			}
 		}
 	}
-
+	
+	/**
+	 * Returns the amount of experience the character has
+	 * @return The amount of experience the character has
+	 */
 	public int getExp() {
 		return exp;
 	}
 
+	/**
+	 * Sets the amount of experience the character has
+	 * @param e The amount of experience the character has
+	 */
 	public void setExp(int e) {
 		exp = e;
 	}
 
+	/**
+	 * Returns the level of the character
+	 * @return The level of the character
+	 */
 	public int getLvl() {
 		return lvl;
 	}
 
+	/**
+	 * Sets the level of the character
+	 * @param l The level of the character
+	 */
 	public void setLvl(int l) {
 		lvl = l;
 	}
 
+	/**
+	 * Returns the strength modifier of the character
+	 * @return The strength modifier of the character
+	 */
 	public int getStr() {
 		return str;
 	}
 
+	/**
+	 * Sets the strength modifier of the character
+	 * @param str The strength modifier of the character
+	 */
 	public void setStr(int str) {
 		this.str = str;
 	}
 
+	/**
+	 * Returns the dexterity modifier of the character
+	 * @return The dexterity modifier of the character
+	 */
 	public int getDex() {
 		return dex;
 	}
-
+	
+	/**
+	 * Sets the dexterity modifier of the character
+	 * @param dex The dexterity modifier of the character
+	 */
 	public void setDex(int dex) {
 		this.dex = dex;
 	}
 
+	/**
+	 * Returns the constitution modifier of the character
+	 * @return The constitution modifier of the character
+	 */
 	public int getCon() {
 		return con;
 	}
 
+	/**
+	 * Sets the constitution modifier of the character
+	 * @param con The constitution modifier of the character
+	 */
 	public void setCon(int con) {
 		this.con = con;
 	}
 
+	/**
+	 * Returns the intelligence modifier of the character
+	 * @return The intelligence modifier of the character
+	 */
 	public int getIntelligence() {
 		return intelligence;
 	}
 
+	/**
+	 * Sets the intelligence modifier of the character
+	 * @param intelligence The intelligence modifier of the character
+	 */
 	public void setIntelligence(int intelligence) {
 		this.intelligence = intelligence;
 	}
 
+	/**
+	 * Returns the wisdom modifier of the character
+	 * @return The wisdom modifier of the character
+	 */
 	public int getWis() {
 		return wis;
 	}
 
+	/**
+	 * Sets the wisdom modifier of the character
+	 * @param wis The wisdom modifier of the character
+	 */
 	public void setWis(int wis) {
 		this.wis = wis;
 	}
 
+	/**
+	 * Returns the charisma modifier of the character
+	 * @return The charisma modifier of the character
+	 */
 	public int getCha() {
 		return cha;
 	}
 
+	/**
+	 * Sets the charisma modifier of the character
+	 * @param cha The charisma modifier of the character
+	 */
 	public void setCha(int cha) {
 		this.cha = cha;
 	}
