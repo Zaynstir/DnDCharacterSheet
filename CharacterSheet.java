@@ -42,9 +42,10 @@ public class CharacterSheet {
 	 * @param cha The Charisma modifier of the character
 	 * @param max The maximum health the character has
 	 */
-	public CharacterSheet(String n, Race r, Class[] c, Spell[] s, Feat[] f, ArrayList<Item> i, int exp, int l, int str, int dex, int con, int inte, int wis, int cha, int max) {
+	public CharacterSheet(String n, Race r, Background b, Class[] c, Spell[] s, Feat[] f, ArrayList<Item> i, int exp, int l, int str, int dex, int con, int inte, int wis, int cha, int max) {
 		name = n;
 		race = r;
+		background = b;
 		classes = c;
 		spells = s;
 		feats = f;
@@ -69,9 +70,10 @@ public class CharacterSheet {
 	 * @param f Feats that the character has
 	 * @param i Items that the character has
 	 */
-	public CharacterSheet(String n, Race r, Class[] c, Spell[] s, Feat[] f, ArrayList<Item> i) {
+	public CharacterSheet(String n, Race r, Background b, Class[] c, Spell[] s, Feat[] f, ArrayList<Item> i) {
 		name = n;
 		race = r;
+		background = b;
 		classes = c;
 		spells = s;
 		feats = f;
@@ -347,6 +349,14 @@ public class CharacterSheet {
 	 */
 	public void setCha(int cha) {
 		this.cha = cha;
+	}
+
+	/**
+	 * Returns the maximum health of the character
+	 * @return The maximum health of the character
+	 */
+	public int getMaxHealth() {
+		return maxHealth;
 	}
 }
 //
