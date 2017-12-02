@@ -1,8 +1,9 @@
-
 /**
- * Feat.java
- * Used for defining a feat used by a D&D character
+ * Used to store all the abilities that everything can have.
+ * @author Zayin Brunson, Weston Chan, Matt Link, Gabriel Maddex
+ * @version CIS200Final
  */
+
 public class Feat {
 	final private String name;
 	final private String prereq;

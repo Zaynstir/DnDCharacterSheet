@@ -1,7 +1,9 @@
 /**
- * Armor.java
- * Used for defining Armor type Item objects
+ * Used to store the different Armor Sets.
+ * @author Zayin Brunson, Weston Chan, Matt Link, Gabriel Maddex
+ * @version CIS200Final
  */
+
 public class Armor extends Item{
 
 	final private char type;
