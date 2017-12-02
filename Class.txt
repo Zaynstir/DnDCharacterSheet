@@ -13,7 +13,7 @@ Bard
 8
 Light Armor,Simple Weapons,Hand Crossbows,Longswords,Rapiers,Shortswords
 Dexterity,Charisma
-3|
+3:Acrobatics,Animal Handling,Arcana,Athletics,Deception,History,Insight,Intimidation,Investigation,Medicine,Nature,Perception,Performance,Persuasion,Religion,Sleight of Hand,Stealth,Survival
 -3 Musical Instruments
 -Rapier:Longsword:Any Simple Weapon
 -Diplomat's Pack:Entertainer's Pack
